@@ -9,7 +9,7 @@ class View
     {
         extract($args, EXTR_SKIP);
 
-        $file = "../App/Views/$view";  // relative to Core directory
+        $file = "../App/Views/$view";  
    
         if (is_readable($file)) {
             require $file;
