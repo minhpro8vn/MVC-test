@@ -5,14 +5,6 @@ namespace Core;
 class Error
 {
 
-    /**
-     * Error handler. Convert all errors to Exceptions by throwing an ErrorException.
-     *
-     * $level  Error level
-     * message  Error message
-     * file  Filename the error was raised in
-     * line  Line number in the file    
-     */
     public static function errorHandler($level, $message, $file, $line)
     {
         if (error_reporting() == 0) {  
@@ -22,7 +14,7 @@ class Error
 
     public static function exceptionHandler($exception)
     {
-        // Code is 404 (not found) or 500 (general error)
+        
         $code = $exception->getCode();
         if ($code != 404) {
             $code = 500;
