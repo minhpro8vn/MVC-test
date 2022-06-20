@@ -1,0 +1,76 @@
+[20-Jun-2022 07:53:08 Asia/Krasnoyarsk] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /var/www/mvc.test/public/index.php(29): Core\Router->dispatch()
+#1 {main}
+Thrown in '/var/www/mvc.test/Core/Router.php' on line 95
+[20-Jun-2022 07:59:37 Asia/Krasnoyarsk] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /var/www/mvc.test/public/index.php(29): Core\Router->dispatch()
+#1 {main}
+Thrown in '/var/www/mvc.test/Core/Router.php' on line 95
+[20-Jun-2022 08:59:33 Asia/Krasnoyarsk] Uncaught exception: 'Error' with message 'Object of class Twig_Environment could not be converted to string'
+Stack trace: #0 /var/www/mvc.test/App/Controllers/Home.php(26): Core\View::renderTemplate()
+#1 [internal function]: App\Controllers\Home->indexAction()
+#2 /var/www/mvc.test/Core/Controller.php(24): call_user_func_array()
+#3 /var/www/mvc.test/Core/Router.php(77): Core\Controller->__call()
+#4 /var/www/mvc.test/public/index.php(29): Core\Router->dispatch()
+#5 {main}
+Thrown in '/var/www/mvc.test/Core/View.php' on line 32
+[20-Jun-2022 08:59:33 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Error: Object of class Twig_Environment could not be converted to string in /var/www/mvc.test/Core/View.php:32
+Stack trace:
+#0 /var/www/mvc.test/Core/Error.php(50): Core\View::renderTemplate()
+#1 [internal function]: Core\Error::exceptionHandler()
+#2 {main}
+  thrown in /var/www/mvc.test/Core/View.php on line 32
+[20-Jun-2022 08:59:38 Asia/Krasnoyarsk] Uncaught exception: 'Error' with message 'Object of class Twig_Environment could not be converted to string'
+Stack trace: #0 /var/www/mvc.test/App/Controllers/Home.php(26): Core\View::renderTemplate()
+#1 [internal function]: App\Controllers\Home->indexAction()
+#2 /var/www/mvc.test/Core/Controller.php(24): call_user_func_array()
+#3 /var/www/mvc.test/Core/Router.php(77): Core\Controller->__call()
+#4 /var/www/mvc.test/public/index.php(29): Core\Router->dispatch()
+#5 {main}
+Thrown in '/var/www/mvc.test/Core/View.php' on line 32
+[20-Jun-2022 08:59:38 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Error: Object of class Twig_Environment could not be converted to string in /var/www/mvc.test/Core/View.php:32
+Stack trace:
+#0 /var/www/mvc.test/Core/Error.php(50): Core\View::renderTemplate()
+#1 [internal function]: Core\Error::exceptionHandler()
+#2 {main}
+  thrown in /var/www/mvc.test/Core/View.php on line 32
+[20-Jun-2022 08:59:38 Asia/Krasnoyarsk] Uncaught exception: 'Error' with message 'Object of class Twig_Environment could not be converted to string'
+Stack trace: #0 /var/www/mvc.test/App/Controllers/Posts.php(19): Core\View::renderTemplate()
+#1 [internal function]: App\Controllers\Posts->indexAction()
+#2 /var/www/mvc.test/Core/Controller.php(24): call_user_func_array()
+#3 /var/www/mvc.test/Core/Router.php(77): Core\Controller->__call()
+#4 /var/www/mvc.test/public/index.php(29): Core\Router->dispatch()
+#5 {main}
+Thrown in '/var/www/mvc.test/Core/View.php' on line 32
+[20-Jun-2022 08:59:38 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Error: Object of class Twig_Environment could not be converted to string in /var/www/mvc.test/Core/View.php:32
+Stack trace:
+#0 /var/www/mvc.test/Core/Error.php(50): Core\View::renderTemplate()
+#1 [internal function]: Core\Error::exceptionHandler()
+#2 {main}
+  thrown in /var/www/mvc.test/Core/View.php on line 32
+[20-Jun-2022 08:59:40 Asia/Krasnoyarsk] Uncaught exception: 'Error' with message 'Object of class Twig_Environment could not be converted to string'
+Stack trace: #0 /var/www/mvc.test/App/Controllers/Home.php(26): Core\View::renderTemplate()
+#1 [internal function]: App\Controllers\Home->indexAction()
+#2 /var/www/mvc.test/Core/Controller.php(24): call_user_func_array()
+#3 /var/www/mvc.test/Core/Router.php(77): Core\Controller->__call()
+#4 /var/www/mvc.test/public/index.php(29): Core\Router->dispatch()
+#5 {main}
+Thrown in '/var/www/mvc.test/Core/View.php' on line 32
+[20-Jun-2022 08:59:40 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Error: Object of class Twig_Environment could not be converted to string in /var/www/mvc.test/Core/View.php:32
+Stack trace:
+#0 /var/www/mvc.test/Core/Error.php(50): Core\View::renderTemplate()
+#1 [internal function]: Core\Error::exceptionHandler()
+#2 {main}
+  thrown in /var/www/mvc.test/Core/View.php on line 32
+[20-Jun-2022 10:55:16 Asia/Krasnoyarsk] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /var/www/mvc.test/public/index.php(29): Core\Router->dispatch()
+#1 {main}
+Thrown in '/var/www/mvc.test/Core/Router.php' on line 86
+[20-Jun-2022 11:14:49 Asia/Krasnoyarsk] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Products not found'
+Stack trace: #0 /var/www/mvc.test/public/index.php(29): Core\Router->dispatch()
+#1 {main}
+Thrown in '/var/www/mvc.test/Core/Router.php' on line 83
+[20-Jun-2022 11:14:54 Asia/Krasnoyarsk] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /var/www/mvc.test/public/index.php(29): Core\Router->dispatch()
+#1 {main}
+Thrown in '/var/www/mvc.test/Core/Router.php' on line 86

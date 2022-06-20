@@ -1,0 +1,1049 @@
+[18-Jun-2022 10:41:10 Asia/Krasnoyarsk] Uncaught exception: 'Twig_Error_Syntax' with message 'An exception has been thrown during the compilation of a template ("preg_match(): Passing null to parameter #4 ($flags) of type int is deprecated") in "Home/index.html".'
+Stack trace: #0 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(396): Twig_Environment->compileSource()
+#1 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate()
+#2 /var/www/mvc.test/Core/View.php(51): Twig_Environment->render()
+#3 /var/www/mvc.test/App/Controllers/Home.php(50): Core\View::renderTemplate()
+#4 [internal function]: App\Controllers\Home->indexAction()
+#5 /var/www/mvc.test/Core/Controller.php(48): call_user_func_array()
+#6 /var/www/mvc.test/Core/Router.php(121): Core\Controller->__call()
+#7 /var/www/mvc.test/public/index.php(39): Core\Router->dispatch()
+#8 {main}
+Thrown in '/var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php' on line 678
+[18-Jun-2022 10:41:10 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Twig_Error_Loader: Unable to find template "500.html" (looked into: ../App/Views). in /var/www/mvc.test/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:215
+Stack trace:
+#0 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(139): Twig_Loader_Filesystem->findTemplate()
+#1 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(312): Twig_Loader_Filesystem->getCacheKey()
+#2 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(378): Twig_Environment->getTemplateClass()
+#3 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate()
+#4 /var/www/mvc.test/Core/View.php(51): Twig_Environment->render()
+#5 /var/www/mvc.test/Core/Error.php(70): Core\View::renderTemplate()
+#6 [internal function]: Core\Error::exceptionHandler()
+#7 {main}
+  thrown in /var/www/mvc.test/vendor/twig/twig/lib/Twig/Loader/Filesystem.php on line 215
+[18-Jun-2022 10:41:38 Asia/Krasnoyarsk] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /var/www/mvc.test/public/index.php(39): Core\Router->dispatch()
+#1 {main}
+Thrown in '/var/www/mvc.test/Core/Router.php' on line 130
+[18-Jun-2022 10:41:38 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught ErrorException: preg_match(): Passing null to parameter #4 ($flags) of type int is deprecated in /var/www/mvc.test/vendor/twig/twig/lib/Twig/Lexer.php:176
+Stack trace:
+#0 [internal function]: Core\Error::errorHandler()
+#1 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Lexer.php(176): preg_match()
+#2 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Lexer.php(107): Twig_Lexer->lexData()
+#3 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(577): Twig_Lexer->tokenize()
+#4 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(667): Twig_Environment->tokenize()
+#5 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(396): Twig_Environment->compileSource()
+#6 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate()
+#7 /var/www/mvc.test/Core/View.php(51): Twig_Environment->render()
+#8 /var/www/mvc.test/Core/Error.php(70): Core\View::renderTemplate()
+#9 [internal function]: Core\Error::exceptionHandler()
+#10 {main}
+
+Next Twig_Error_Syntax: An exception has been thrown during the compilation of a template ("preg_match(): Passing null to parameter #4 ($flags) of type int is deprecated") in "404.html". in /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php:678
+Stack trace:
+#0 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(396): Twig_Environment->compileSource()
+#1 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate()
+#2 /var/www/mvc.test/Core/View.php(51): Twig_Environment->render()
+#3 /var/www/mvc.test/Core/Error.php(70): Core\View::renderTemplate()
+#4 [internal function]: Core\Error::exceptionHandler()
+#5 {main}
+  thrown in /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php on line 678
+[18-Jun-2022 10:41:55 Asia/Krasnoyarsk] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /var/www/mvc.test/public/index.php(39): Core\Router->dispatch()
+#1 {main}
+Thrown in '/var/www/mvc.test/Core/Router.php' on line 130
+[18-Jun-2022 10:41:56 Asia/Krasnoyarsk] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /var/www/mvc.test/public/index.php(39): Core\Router->dispatch()
+#1 {main}
+Thrown in '/var/www/mvc.test/Core/Router.php' on line 130
+[18-Jun-2022 10:41:57 Asia/Krasnoyarsk] Uncaught exception: 'Twig_Error_Syntax' with message 'An exception has been thrown during the compilation of a template ("preg_match(): Passing null to parameter #4 ($flags) of type int is deprecated") in "Home/index.html".'
+Stack trace: #0 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(396): Twig_Environment->compileSource()
+#1 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate()
+#2 /var/www/mvc.test/Core/View.php(51): Twig_Environment->render()
+#3 /var/www/mvc.test/App/Controllers/Home.php(50): Core\View::renderTemplate()
+#4 [internal function]: App\Controllers\Home->indexAction()
+#5 /var/www/mvc.test/Core/Controller.php(48): call_user_func_array()
+#6 /var/www/mvc.test/Core/Router.php(121): Core\Controller->__call()
+#7 /var/www/mvc.test/public/index.php(39): Core\Router->dispatch()
+#8 {main}
+Thrown in '/var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php' on line 678
+[18-Jun-2022 10:42:33 Asia/Krasnoyarsk] Uncaught exception: 'Twig_Error_Syntax' with message 'An exception has been thrown during the compilation of a template ("preg_match(): Passing null to parameter #4 ($flags) of type int is deprecated") in "Home/index.html".'
+Stack trace: #0 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(396): Twig_Environment->compileSource()
+#1 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate()
+#2 /var/www/mvc.test/Core/View.php(51): Twig_Environment->render()
+#3 /var/www/mvc.test/App/Controllers/Home.php(50): Core\View::renderTemplate()
+#4 [internal function]: App\Controllers\Home->indexAction()
+#5 /var/www/mvc.test/Core/Controller.php(48): call_user_func_array()
+#6 /var/www/mvc.test/Core/Router.php(121): Core\Controller->__call()
+#7 /var/www/mvc.test/public/index.php(39): Core\Router->dispatch()
+#8 {main}
+Thrown in '/var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php' on line 678
+[18-Jun-2022 10:42:36 Asia/Krasnoyarsk] Uncaught exception: 'Twig_Error_Syntax' with message 'An exception has been thrown during the compilation of a template ("preg_match(): Passing null to parameter #4 ($flags) of type int is deprecated") in "Home/index.html".'
+Stack trace: #0 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(396): Twig_Environment->compileSource()
+#1 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate()
+#2 /var/www/mvc.test/Core/View.php(51): Twig_Environment->render()
+#3 /var/www/mvc.test/App/Controllers/Home.php(50): Core\View::renderTemplate()
+#4 [internal function]: App\Controllers\Home->indexAction()
+#5 /var/www/mvc.test/Core/Controller.php(48): call_user_func_array()
+#6 /var/www/mvc.test/Core/Router.php(121): Core\Controller->__call()
+#7 /var/www/mvc.test/public/index.php(39): Core\Router->dispatch()
+#8 {main}
+Thrown in '/var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php' on line 678
+[18-Jun-2022 10:43:11 Asia/Krasnoyarsk] Uncaught exception: 'Twig_Error_Syntax' with message 'An exception has been thrown during the compilation of a template ("preg_match(): Passing null to parameter #4 ($flags) of type int is deprecated") in "Home/index.html".'
+Stack trace: #0 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(396): Twig_Environment->compileSource()
+#1 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate()
+#2 /var/www/mvc.test/Core/View.php(51): Twig_Environment->render()
+#3 /var/www/mvc.test/App/Controllers/Home.php(50): Core\View::renderTemplate()
+#4 [internal function]: App\Controllers\Home->indexAction()
+#5 /var/www/mvc.test/Core/Controller.php(48): call_user_func_array()
+#6 /var/www/mvc.test/Core/Router.php(121): Core\Controller->__call()
+#7 /var/www/mvc.test/public/index.php(39): Core\Router->dispatch()
+#8 {main}
+Thrown in '/var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php' on line 678
+[18-Jun-2022 10:43:11 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Twig_Error_Loader: Unable to find template "500.html" (looked into: ../App/Views). in /var/www/mvc.test/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:215
+Stack trace:
+#0 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(139): Twig_Loader_Filesystem->findTemplate()
+#1 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(312): Twig_Loader_Filesystem->getCacheKey()
+#2 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(378): Twig_Environment->getTemplateClass()
+#3 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate()
+#4 /var/www/mvc.test/Core/View.php(51): Twig_Environment->render()
+#5 /var/www/mvc.test/Core/Error.php(70): Core\View::renderTemplate()
+#6 [internal function]: Core\Error::exceptionHandler()
+#7 {main}
+  thrown in /var/www/mvc.test/vendor/twig/twig/lib/Twig/Loader/Filesystem.php on line 215
+[18-Jun-2022 10:43:11 Asia/Krasnoyarsk] Uncaught exception: 'Twig_Error_Syntax' with message 'An exception has been thrown during the compilation of a template ("preg_match(): Passing null to parameter #4 ($flags) of type int is deprecated") in "Home/index.html".'
+Stack trace: #0 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(396): Twig_Environment->compileSource()
+#1 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate()
+#2 /var/www/mvc.test/Core/View.php(51): Twig_Environment->render()
+#3 /var/www/mvc.test/App/Controllers/Home.php(50): Core\View::renderTemplate()
+#4 [internal function]: App\Controllers\Home->indexAction()
+#5 /var/www/mvc.test/Core/Controller.php(48): call_user_func_array()
+#6 /var/www/mvc.test/Core/Router.php(121): Core\Controller->__call()
+#7 /var/www/mvc.test/public/index.php(39): Core\Router->dispatch()
+#8 {main}
+Thrown in '/var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php' on line 678
+[18-Jun-2022 10:43:11 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Twig_Error_Loader: Unable to find template "500.html" (looked into: ../App/Views). in /var/www/mvc.test/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:215
+Stack trace:
+#0 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(139): Twig_Loader_Filesystem->findTemplate()
+#1 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(312): Twig_Loader_Filesystem->getCacheKey()
+#2 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(378): Twig_Environment->getTemplateClass()
+#3 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate()
+#4 /var/www/mvc.test/Core/View.php(51): Twig_Environment->render()
+#5 /var/www/mvc.test/Core/Error.php(70): Core\View::renderTemplate()
+#6 [internal function]: Core\Error::exceptionHandler()
+#7 {main}
+  thrown in /var/www/mvc.test/vendor/twig/twig/lib/Twig/Loader/Filesystem.php on line 215
+[18-Jun-2022 10:43:12 Asia/Krasnoyarsk] Uncaught exception: 'Twig_Error_Syntax' with message 'An exception has been thrown during the compilation of a template ("preg_match(): Passing null to parameter #4 ($flags) of type int is deprecated") in "Home/index.html".'
+Stack trace: #0 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(396): Twig_Environment->compileSource()
+#1 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate()
+#2 /var/www/mvc.test/Core/View.php(51): Twig_Environment->render()
+#3 /var/www/mvc.test/App/Controllers/Home.php(50): Core\View::renderTemplate()
+#4 [internal function]: App\Controllers\Home->indexAction()
+#5 /var/www/mvc.test/Core/Controller.php(48): call_user_func_array()
+#6 /var/www/mvc.test/Core/Router.php(121): Core\Controller->__call()
+#7 /var/www/mvc.test/public/index.php(39): Core\Router->dispatch()
+#8 {main}
+Thrown in '/var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php' on line 678
+[18-Jun-2022 10:43:12 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Twig_Error_Loader: Unable to find template "500.html" (looked into: ../App/Views). in /var/www/mvc.test/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:215
+Stack trace:
+#0 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(139): Twig_Loader_Filesystem->findTemplate()
+#1 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(312): Twig_Loader_Filesystem->getCacheKey()
+#2 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(378): Twig_Environment->getTemplateClass()
+#3 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate()
+#4 /var/www/mvc.test/Core/View.php(51): Twig_Environment->render()
+#5 /var/www/mvc.test/Core/Error.php(70): Core\View::renderTemplate()
+#6 [internal function]: Core\Error::exceptionHandler()
+#7 {main}
+  thrown in /var/www/mvc.test/vendor/twig/twig/lib/Twig/Loader/Filesystem.php on line 215
+[18-Jun-2022 10:43:23 Asia/Krasnoyarsk] Uncaught exception: 'Twig_Error_Syntax' with message 'An exception has been thrown during the compilation of a template ("preg_match(): Passing null to parameter #4 ($flags) of type int is deprecated") in "Home/index.html".'
+Stack trace: #0 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(396): Twig_Environment->compileSource()
+#1 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate()
+#2 /var/www/mvc.test/Core/View.php(51): Twig_Environment->render()
+#3 /var/www/mvc.test/App/Controllers/Home.php(50): Core\View::renderTemplate()
+#4 [internal function]: App\Controllers\Home->indexAction()
+#5 /var/www/mvc.test/Core/Controller.php(48): call_user_func_array()
+#6 /var/www/mvc.test/Core/Router.php(121): Core\Controller->__call()
+#7 /var/www/mvc.test/public/index.php(39): Core\Router->dispatch()
+#8 {main}
+Thrown in '/var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php' on line 678
+[18-Jun-2022 10:43:23 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Twig_Error_Loader: Unable to find template "500.html" (looked into: ../App/Views). in /var/www/mvc.test/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:215
+Stack trace:
+#0 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(139): Twig_Loader_Filesystem->findTemplate()
+#1 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(312): Twig_Loader_Filesystem->getCacheKey()
+#2 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(378): Twig_Environment->getTemplateClass()
+#3 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate()
+#4 /var/www/mvc.test/Core/View.php(51): Twig_Environment->render()
+#5 /var/www/mvc.test/Core/Error.php(70): Core\View::renderTemplate()
+#6 [internal function]: Core\Error::exceptionHandler()
+#7 {main}
+  thrown in /var/www/mvc.test/vendor/twig/twig/lib/Twig/Loader/Filesystem.php on line 215
+[18-Jun-2022 10:43:24 Asia/Krasnoyarsk] Uncaught exception: 'Twig_Error_Syntax' with message 'An exception has been thrown during the compilation of a template ("preg_match(): Passing null to parameter #4 ($flags) of type int is deprecated") in "Home/index.html".'
+Stack trace: #0 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(396): Twig_Environment->compileSource()
+#1 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate()
+#2 /var/www/mvc.test/Core/View.php(51): Twig_Environment->render()
+#3 /var/www/mvc.test/App/Controllers/Home.php(50): Core\View::renderTemplate()
+#4 [internal function]: App\Controllers\Home->indexAction()
+#5 /var/www/mvc.test/Core/Controller.php(48): call_user_func_array()
+#6 /var/www/mvc.test/Core/Router.php(121): Core\Controller->__call()
+#7 /var/www/mvc.test/public/index.php(39): Core\Router->dispatch()
+#8 {main}
+Thrown in '/var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php' on line 678
+[18-Jun-2022 10:43:24 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Twig_Error_Loader: Unable to find template "500.html" (looked into: ../App/Views). in /var/www/mvc.test/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:215
+Stack trace:
+#0 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(139): Twig_Loader_Filesystem->findTemplate()
+#1 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(312): Twig_Loader_Filesystem->getCacheKey()
+#2 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(378): Twig_Environment->getTemplateClass()
+#3 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate()
+#4 /var/www/mvc.test/Core/View.php(51): Twig_Environment->render()
+#5 /var/www/mvc.test/Core/Error.php(70): Core\View::renderTemplate()
+#6 [internal function]: Core\Error::exceptionHandler()
+#7 {main}
+  thrown in /var/www/mvc.test/vendor/twig/twig/lib/Twig/Loader/Filesystem.php on line 215
+[18-Jun-2022 10:44:02 Asia/Krasnoyarsk] Uncaught exception: 'Twig_Error_Syntax' with message 'An exception has been thrown during the compilation of a template ("preg_match(): Passing null to parameter #4 ($flags) of type int is deprecated") in "Home/index.html".'
+Stack trace: #0 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(396): Twig_Environment->compileSource()
+#1 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate()
+#2 /var/www/mvc.test/Core/View.php(51): Twig_Environment->render()
+#3 /var/www/mvc.test/App/Controllers/Home.php(50): Core\View::renderTemplate()
+#4 [internal function]: App\Controllers\Home->indexAction()
+#5 /var/www/mvc.test/Core/Controller.php(48): call_user_func_array()
+#6 /var/www/mvc.test/Core/Router.php(121): Core\Controller->__call()
+#7 /var/www/mvc.test/public/index.php(39): Core\Router->dispatch()
+#8 {main}
+Thrown in '/var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php' on line 678
+[18-Jun-2022 10:44:02 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Twig_Error_Loader: Unable to find template "500.html" (looked into: ../App/Views). in /var/www/mvc.test/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:215
+Stack trace:
+#0 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(139): Twig_Loader_Filesystem->findTemplate()
+#1 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(312): Twig_Loader_Filesystem->getCacheKey()
+#2 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(378): Twig_Environment->getTemplateClass()
+#3 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate()
+#4 /var/www/mvc.test/Core/View.php(51): Twig_Environment->render()
+#5 /var/www/mvc.test/Core/Error.php(70): Core\View::renderTemplate()
+#6 [internal function]: Core\Error::exceptionHandler()
+#7 {main}
+  thrown in /var/www/mvc.test/vendor/twig/twig/lib/Twig/Loader/Filesystem.php on line 215
+[18-Jun-2022 10:44:02 Asia/Krasnoyarsk] Uncaught exception: 'Twig_Error_Syntax' with message 'An exception has been thrown during the compilation of a template ("preg_match(): Passing null to parameter #4 ($flags) of type int is deprecated") in "Home/index.html".'
+Stack trace: #0 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(396): Twig_Environment->compileSource()
+#1 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate()
+#2 /var/www/mvc.test/Core/View.php(51): Twig_Environment->render()
+#3 /var/www/mvc.test/App/Controllers/Home.php(50): Core\View::renderTemplate()
+#4 [internal function]: App\Controllers\Home->indexAction()
+#5 /var/www/mvc.test/Core/Controller.php(48): call_user_func_array()
+#6 /var/www/mvc.test/Core/Router.php(121): Core\Controller->__call()
+#7 /var/www/mvc.test/public/index.php(39): Core\Router->dispatch()
+#8 {main}
+Thrown in '/var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php' on line 678
+[18-Jun-2022 10:44:02 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Twig_Error_Loader: Unable to find template "500.html" (looked into: ../App/Views). in /var/www/mvc.test/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:215
+Stack trace:
+#0 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(139): Twig_Loader_Filesystem->findTemplate()
+#1 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(312): Twig_Loader_Filesystem->getCacheKey()
+#2 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(378): Twig_Environment->getTemplateClass()
+#3 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate()
+#4 /var/www/mvc.test/Core/View.php(51): Twig_Environment->render()
+#5 /var/www/mvc.test/Core/Error.php(70): Core\View::renderTemplate()
+#6 [internal function]: Core\Error::exceptionHandler()
+#7 {main}
+  thrown in /var/www/mvc.test/vendor/twig/twig/lib/Twig/Loader/Filesystem.php on line 215
+[18-Jun-2022 10:44:03 Asia/Krasnoyarsk] Uncaught exception: 'Twig_Error_Syntax' with message 'An exception has been thrown during the compilation of a template ("preg_match(): Passing null to parameter #4 ($flags) of type int is deprecated") in "Home/index.html".'
+Stack trace: #0 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(396): Twig_Environment->compileSource()
+#1 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate()
+#2 /var/www/mvc.test/Core/View.php(51): Twig_Environment->render()
+#3 /var/www/mvc.test/App/Controllers/Home.php(50): Core\View::renderTemplate()
+#4 [internal function]: App\Controllers\Home->indexAction()
+#5 /var/www/mvc.test/Core/Controller.php(48): call_user_func_array()
+#6 /var/www/mvc.test/Core/Router.php(121): Core\Controller->__call()
+#7 /var/www/mvc.test/public/index.php(39): Core\Router->dispatch()
+#8 {main}
+Thrown in '/var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php' on line 678
+[18-Jun-2022 10:44:03 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Twig_Error_Loader: Unable to find template "500.html" (looked into: ../App/Views). in /var/www/mvc.test/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:215
+Stack trace:
+#0 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(139): Twig_Loader_Filesystem->findTemplate()
+#1 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(312): Twig_Loader_Filesystem->getCacheKey()
+#2 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(378): Twig_Environment->getTemplateClass()
+#3 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate()
+#4 /var/www/mvc.test/Core/View.php(51): Twig_Environment->render()
+#5 /var/www/mvc.test/Core/Error.php(70): Core\View::renderTemplate()
+#6 [internal function]: Core\Error::exceptionHandler()
+#7 {main}
+  thrown in /var/www/mvc.test/vendor/twig/twig/lib/Twig/Loader/Filesystem.php on line 215
+[18-Jun-2022 10:44:03 Asia/Krasnoyarsk] Uncaught exception: 'Twig_Error_Syntax' with message 'An exception has been thrown during the compilation of a template ("preg_match(): Passing null to parameter #4 ($flags) of type int is deprecated") in "Home/index.html".'
+Stack trace: #0 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(396): Twig_Environment->compileSource()
+#1 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate()
+#2 /var/www/mvc.test/Core/View.php(51): Twig_Environment->render()
+#3 /var/www/mvc.test/App/Controllers/Home.php(50): Core\View::renderTemplate()
+#4 [internal function]: App\Controllers\Home->indexAction()
+#5 /var/www/mvc.test/Core/Controller.php(48): call_user_func_array()
+#6 /var/www/mvc.test/Core/Router.php(121): Core\Controller->__call()
+#7 /var/www/mvc.test/public/index.php(39): Core\Router->dispatch()
+#8 {main}
+Thrown in '/var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php' on line 678
+[18-Jun-2022 10:44:03 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Twig_Error_Loader: Unable to find template "500.html" (looked into: ../App/Views). in /var/www/mvc.test/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:215
+Stack trace:
+#0 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(139): Twig_Loader_Filesystem->findTemplate()
+#1 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(312): Twig_Loader_Filesystem->getCacheKey()
+#2 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(378): Twig_Environment->getTemplateClass()
+#3 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate()
+#4 /var/www/mvc.test/Core/View.php(51): Twig_Environment->render()
+#5 /var/www/mvc.test/Core/Error.php(70): Core\View::renderTemplate()
+#6 [internal function]: Core\Error::exceptionHandler()
+#7 {main}
+  thrown in /var/www/mvc.test/vendor/twig/twig/lib/Twig/Loader/Filesystem.php on line 215
+[18-Jun-2022 10:44:30 Asia/Krasnoyarsk] Uncaught exception: 'Twig_Error_Syntax' with message 'An exception has been thrown during the compilation of a template ("preg_match(): Passing null to parameter #4 ($flags) of type int is deprecated") in "Home/index.html".'
+Stack trace: #0 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(396): Twig_Environment->compileSource()
+#1 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate()
+#2 /var/www/mvc.test/Core/View.php(51): Twig_Environment->render()
+#3 /var/www/mvc.test/App/Controllers/Home.php(50): Core\View::renderTemplate()
+#4 [internal function]: App\Controllers\Home->indexAction()
+#5 /var/www/mvc.test/Core/Controller.php(48): call_user_func_array()
+#6 /var/www/mvc.test/Core/Router.php(121): Core\Controller->__call()
+#7 /var/www/mvc.test/public/index.php(39): Core\Router->dispatch()
+#8 {main}
+Thrown in '/var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php' on line 678
+[18-Jun-2022 10:44:30 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Twig_Error_Loader: Unable to find template "500.html" (looked into: ../App/Views). in /var/www/mvc.test/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:215
+Stack trace:
+#0 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(139): Twig_Loader_Filesystem->findTemplate()
+#1 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(312): Twig_Loader_Filesystem->getCacheKey()
+#2 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(378): Twig_Environment->getTemplateClass()
+#3 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate()
+#4 /var/www/mvc.test/Core/View.php(51): Twig_Environment->render()
+#5 /var/www/mvc.test/Core/Error.php(70): Core\View::renderTemplate()
+#6 [internal function]: Core\Error::exceptionHandler()
+#7 {main}
+  thrown in /var/www/mvc.test/vendor/twig/twig/lib/Twig/Loader/Filesystem.php on line 215
+[18-Jun-2022 10:44:30 Asia/Krasnoyarsk] Uncaught exception: 'Twig_Error_Syntax' with message 'An exception has been thrown during the compilation of a template ("preg_match(): Passing null to parameter #4 ($flags) of type int is deprecated") in "Home/index.html".'
+Stack trace: #0 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(396): Twig_Environment->compileSource()
+#1 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate()
+#2 /var/www/mvc.test/Core/View.php(51): Twig_Environment->render()
+#3 /var/www/mvc.test/App/Controllers/Home.php(50): Core\View::renderTemplate()
+#4 [internal function]: App\Controllers\Home->indexAction()
+#5 /var/www/mvc.test/Core/Controller.php(48): call_user_func_array()
+#6 /var/www/mvc.test/Core/Router.php(121): Core\Controller->__call()
+#7 /var/www/mvc.test/public/index.php(39): Core\Router->dispatch()
+#8 {main}
+Thrown in '/var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php' on line 678
+[18-Jun-2022 10:44:30 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Twig_Error_Loader: Unable to find template "500.html" (looked into: ../App/Views). in /var/www/mvc.test/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:215
+Stack trace:
+#0 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(139): Twig_Loader_Filesystem->findTemplate()
+#1 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(312): Twig_Loader_Filesystem->getCacheKey()
+#2 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(378): Twig_Environment->getTemplateClass()
+#3 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate()
+#4 /var/www/mvc.test/Core/View.php(51): Twig_Environment->render()
+#5 /var/www/mvc.test/Core/Error.php(70): Core\View::renderTemplate()
+#6 [internal function]: Core\Error::exceptionHandler()
+#7 {main}
+  thrown in /var/www/mvc.test/vendor/twig/twig/lib/Twig/Loader/Filesystem.php on line 215
+[18-Jun-2022 10:44:30 Asia/Krasnoyarsk] Uncaught exception: 'Twig_Error_Syntax' with message 'An exception has been thrown during the compilation of a template ("preg_match(): Passing null to parameter #4 ($flags) of type int is deprecated") in "Home/index.html".'
+Stack trace: #0 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(396): Twig_Environment->compileSource()
+#1 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate()
+#2 /var/www/mvc.test/Core/View.php(51): Twig_Environment->render()
+#3 /var/www/mvc.test/App/Controllers/Home.php(50): Core\View::renderTemplate()
+#4 [internal function]: App\Controllers\Home->indexAction()
+#5 /var/www/mvc.test/Core/Controller.php(48): call_user_func_array()
+#6 /var/www/mvc.test/Core/Router.php(121): Core\Controller->__call()
+#7 /var/www/mvc.test/public/index.php(39): Core\Router->dispatch()
+#8 {main}
+Thrown in '/var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php' on line 678
+[18-Jun-2022 10:44:30 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Twig_Error_Loader: Unable to find template "500.html" (looked into: ../App/Views). in /var/www/mvc.test/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:215
+Stack trace:
+#0 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(139): Twig_Loader_Filesystem->findTemplate()
+#1 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(312): Twig_Loader_Filesystem->getCacheKey()
+#2 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(378): Twig_Environment->getTemplateClass()
+#3 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate()
+#4 /var/www/mvc.test/Core/View.php(51): Twig_Environment->render()
+#5 /var/www/mvc.test/Core/Error.php(70): Core\View::renderTemplate()
+#6 [internal function]: Core\Error::exceptionHandler()
+#7 {main}
+  thrown in /var/www/mvc.test/vendor/twig/twig/lib/Twig/Loader/Filesystem.php on line 215
+[18-Jun-2022 10:45:30 Asia/Krasnoyarsk] Uncaught exception: 'Twig_Error_Syntax' with message 'An exception has been thrown during the compilation of a template ("preg_match(): Passing null to parameter #4 ($flags) of type int is deprecated") in "Home/index.html".'
+Stack trace: #0 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(396): Twig_Environment->compileSource()
+#1 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate()
+#2 /var/www/mvc.test/Core/View.php(51): Twig_Environment->render()
+#3 /var/www/mvc.test/App/Controllers/Home.php(50): Core\View::renderTemplate()
+#4 [internal function]: App\Controllers\Home->indexAction()
+#5 /var/www/mvc.test/Core/Controller.php(48): call_user_func_array()
+#6 /var/www/mvc.test/Core/Router.php(121): Core\Controller->__call()
+#7 /var/www/mvc.test/public/index.php(39): Core\Router->dispatch()
+#8 {main}
+Thrown in '/var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php' on line 678
+[18-Jun-2022 10:45:30 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Twig_Error_Loader: Unable to find template "500.html" (looked into: ../App/Views). in /var/www/mvc.test/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:215
+Stack trace:
+#0 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(139): Twig_Loader_Filesystem->findTemplate()
+#1 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(312): Twig_Loader_Filesystem->getCacheKey()
+#2 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(378): Twig_Environment->getTemplateClass()
+#3 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate()
+#4 /var/www/mvc.test/Core/View.php(51): Twig_Environment->render()
+#5 /var/www/mvc.test/Core/Error.php(70): Core\View::renderTemplate()
+#6 [internal function]: Core\Error::exceptionHandler()
+#7 {main}
+  thrown in /var/www/mvc.test/vendor/twig/twig/lib/Twig/Loader/Filesystem.php on line 215
+[18-Jun-2022 10:45:59 Asia/Krasnoyarsk] Uncaught exception: 'Twig_Error_Syntax' with message 'An exception has been thrown during the compilation of a template ("preg_match(): Passing null to parameter #4 ($flags) of type int is deprecated") in "Home/index.html".'
+Stack trace: #0 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(396): Twig_Environment->compileSource()
+#1 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate()
+#2 /var/www/mvc.test/Core/View.php(51): Twig_Environment->render()
+#3 /var/www/mvc.test/App/Controllers/Home.php(50): Core\View::renderTemplate()
+#4 [internal function]: App\Controllers\Home->indexAction()
+#5 /var/www/mvc.test/Core/Controller.php(48): call_user_func_array()
+#6 /var/www/mvc.test/Core/Router.php(121): Core\Controller->__call()
+#7 /var/www/mvc.test/public/index.php(39): Core\Router->dispatch()
+#8 {main}
+Thrown in '/var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php' on line 678
+[18-Jun-2022 10:45:59 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Twig_Error_Loader: Unable to find template "500.html" (looked into: ../App/Views). in /var/www/mvc.test/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:215
+Stack trace:
+#0 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(139): Twig_Loader_Filesystem->findTemplate()
+#1 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(312): Twig_Loader_Filesystem->getCacheKey()
+#2 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(378): Twig_Environment->getTemplateClass()
+#3 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate()
+#4 /var/www/mvc.test/Core/View.php(51): Twig_Environment->render()
+#5 /var/www/mvc.test/Core/Error.php(70): Core\View::renderTemplate()
+#6 [internal function]: Core\Error::exceptionHandler()
+#7 {main}
+  thrown in /var/www/mvc.test/vendor/twig/twig/lib/Twig/Loader/Filesystem.php on line 215
+[18-Jun-2022 10:46:00 Asia/Krasnoyarsk] Uncaught exception: 'Twig_Error_Syntax' with message 'An exception has been thrown during the compilation of a template ("preg_match(): Passing null to parameter #4 ($flags) of type int is deprecated") in "Home/index.html".'
+Stack trace: #0 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(396): Twig_Environment->compileSource()
+#1 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate()
+#2 /var/www/mvc.test/Core/View.php(51): Twig_Environment->render()
+#3 /var/www/mvc.test/App/Controllers/Home.php(50): Core\View::renderTemplate()
+#4 [internal function]: App\Controllers\Home->indexAction()
+#5 /var/www/mvc.test/Core/Controller.php(48): call_user_func_array()
+#6 /var/www/mvc.test/Core/Router.php(121): Core\Controller->__call()
+#7 /var/www/mvc.test/public/index.php(39): Core\Router->dispatch()
+#8 {main}
+Thrown in '/var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php' on line 678
+[18-Jun-2022 10:46:00 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Twig_Error_Loader: Unable to find template "500.html" (looked into: ../App/Views). in /var/www/mvc.test/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:215
+Stack trace:
+#0 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(139): Twig_Loader_Filesystem->findTemplate()
+#1 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(312): Twig_Loader_Filesystem->getCacheKey()
+#2 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(378): Twig_Environment->getTemplateClass()
+#3 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate()
+#4 /var/www/mvc.test/Core/View.php(51): Twig_Environment->render()
+#5 /var/www/mvc.test/Core/Error.php(70): Core\View::renderTemplate()
+#6 [internal function]: Core\Error::exceptionHandler()
+#7 {main}
+  thrown in /var/www/mvc.test/vendor/twig/twig/lib/Twig/Loader/Filesystem.php on line 215
+[18-Jun-2022 10:46:00 Asia/Krasnoyarsk] Uncaught exception: 'Twig_Error_Syntax' with message 'An exception has been thrown during the compilation of a template ("preg_match(): Passing null to parameter #4 ($flags) of type int is deprecated") in "Home/index.html".'
+Stack trace: #0 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(396): Twig_Environment->compileSource()
+#1 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate()
+#2 /var/www/mvc.test/Core/View.php(51): Twig_Environment->render()
+#3 /var/www/mvc.test/App/Controllers/Home.php(50): Core\View::renderTemplate()
+#4 [internal function]: App\Controllers\Home->indexAction()
+#5 /var/www/mvc.test/Core/Controller.php(48): call_user_func_array()
+#6 /var/www/mvc.test/Core/Router.php(121): Core\Controller->__call()
+#7 /var/www/mvc.test/public/index.php(39): Core\Router->dispatch()
+#8 {main}
+Thrown in '/var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php' on line 678
+[18-Jun-2022 10:46:00 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Twig_Error_Loader: Unable to find template "500.html" (looked into: ../App/Views). in /var/www/mvc.test/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:215
+Stack trace:
+#0 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(139): Twig_Loader_Filesystem->findTemplate()
+#1 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(312): Twig_Loader_Filesystem->getCacheKey()
+#2 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(378): Twig_Environment->getTemplateClass()
+#3 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate()
+#4 /var/www/mvc.test/Core/View.php(51): Twig_Environment->render()
+#5 /var/www/mvc.test/Core/Error.php(70): Core\View::renderTemplate()
+#6 [internal function]: Core\Error::exceptionHandler()
+#7 {main}
+  thrown in /var/www/mvc.test/vendor/twig/twig/lib/Twig/Loader/Filesystem.php on line 215
+[18-Jun-2022 10:46:31 Asia/Krasnoyarsk] Uncaught exception: 'Twig_Error_Syntax' with message 'An exception has been thrown during the compilation of a template ("preg_match(): Passing null to parameter #4 ($flags) of type int is deprecated") in "Home/index.html".'
+Stack trace: #0 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(396): Twig_Environment->compileSource()
+#1 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate()
+#2 /var/www/mvc.test/Core/View.php(51): Twig_Environment->render()
+#3 /var/www/mvc.test/App/Controllers/Home.php(50): Core\View::renderTemplate()
+#4 [internal function]: App\Controllers\Home->indexAction()
+#5 /var/www/mvc.test/Core/Controller.php(48): call_user_func_array()
+#6 /var/www/mvc.test/Core/Router.php(121): Core\Controller->__call()
+#7 /var/www/mvc.test/public/index.php(39): Core\Router->dispatch()
+#8 {main}
+Thrown in '/var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php' on line 678
+[18-Jun-2022 10:46:31 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Twig_Error_Loader: Unable to find template "500.html" (looked into: ../App/Views). in /var/www/mvc.test/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:215
+Stack trace:
+#0 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(139): Twig_Loader_Filesystem->findTemplate()
+#1 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(312): Twig_Loader_Filesystem->getCacheKey()
+#2 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(378): Twig_Environment->getTemplateClass()
+#3 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate()
+#4 /var/www/mvc.test/Core/View.php(51): Twig_Environment->render()
+#5 /var/www/mvc.test/Core/Error.php(70): Core\View::renderTemplate()
+#6 [internal function]: Core\Error::exceptionHandler()
+#7 {main}
+  thrown in /var/www/mvc.test/vendor/twig/twig/lib/Twig/Loader/Filesystem.php on line 215
+[18-Jun-2022 10:48:11 Asia/Krasnoyarsk] Uncaught exception: 'Twig_Error_Syntax' with message 'An exception has been thrown during the compilation of a template ("preg_match(): Passing null to parameter #4 ($flags) of type int is deprecated") in "Home/index.html".'
+Stack trace: #0 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(396): Twig_Environment->compileSource()
+#1 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate()
+#2 /var/www/mvc.test/Core/View.php(51): Twig_Environment->render()
+#3 /var/www/mvc.test/App/Controllers/Home.php(50): Core\View::renderTemplate()
+#4 [internal function]: App\Controllers\Home->indexAction()
+#5 /var/www/mvc.test/Core/Controller.php(48): call_user_func_array()
+#6 /var/www/mvc.test/Core/Router.php(121): Core\Controller->__call()
+#7 /var/www/mvc.test/public/index.php(39): Core\Router->dispatch()
+#8 {main}
+Thrown in '/var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php' on line 678
+[18-Jun-2022 10:57:01 Asia/Krasnoyarsk] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /var/www/mvc.test/public/index.php(39): Core\Router->dispatch()
+#1 {main}
+Thrown in '/var/www/mvc.test/Core/Router.php' on line 130
+[18-Jun-2022 10:57:33 Asia/Krasnoyarsk] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /var/www/mvc.test/public/index.php(39): Core\Router->dispatch()
+#1 {main}
+Thrown in '/var/www/mvc.test/Core/Router.php' on line 130
+[18-Jun-2022 10:57:37 Asia/Krasnoyarsk] Uncaught exception: 'Twig_Error_Syntax' with message 'An exception has been thrown during the compilation of a template ("preg_match(): Passing null to parameter #4 ($flags) of type int is deprecated") in "Home/index.html".'
+Stack trace: #0 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(396): Twig_Environment->compileSource()
+#1 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate()
+#2 /var/www/mvc.test/Core/View.php(51): Twig_Environment->render()
+#3 /var/www/mvc.test/App/Controllers/Home.php(50): Core\View::renderTemplate()
+#4 [internal function]: App\Controllers\Home->indexAction()
+#5 /var/www/mvc.test/Core/Controller.php(48): call_user_func_array()
+#6 /var/www/mvc.test/Core/Router.php(121): Core\Controller->__call()
+#7 /var/www/mvc.test/public/index.php(39): Core\Router->dispatch()
+#8 {main}
+Thrown in '/var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php' on line 678
+[18-Jun-2022 10:58:46 Asia/Krasnoyarsk] Uncaught exception: 'Twig_Error_Syntax' with message 'An exception has been thrown during the compilation of a template ("preg_match(): Passing null to parameter #4 ($flags) of type int is deprecated") in "Home/index.html".'
+Stack trace: #0 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(396): Twig_Environment->compileSource()
+#1 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate()
+#2 /var/www/mvc.test/Core/View.php(51): Twig_Environment->render()
+#3 /var/www/mvc.test/App/Controllers/Home.php(50): Core\View::renderTemplate()
+#4 [internal function]: App\Controllers\Home->indexAction()
+#5 /var/www/mvc.test/Core/Controller.php(48): call_user_func_array()
+#6 /var/www/mvc.test/Core/Router.php(121): Core\Controller->__call()
+#7 /var/www/mvc.test/public/index.php(39): Core\Router->dispatch()
+#8 {main}
+Thrown in '/var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php' on line 678
+[18-Jun-2022 10:58:46 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Twig_Error_Loader: Unable to find template "500.html" (looked into: ../App/Views). in /var/www/mvc.test/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:215
+Stack trace:
+#0 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(139): Twig_Loader_Filesystem->findTemplate()
+#1 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(312): Twig_Loader_Filesystem->getCacheKey()
+#2 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(378): Twig_Environment->getTemplateClass()
+#3 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate()
+#4 /var/www/mvc.test/Core/View.php(51): Twig_Environment->render()
+#5 /var/www/mvc.test/Core/Error.php(70): Core\View::renderTemplate()
+#6 [internal function]: Core\Error::exceptionHandler()
+#7 {main}
+  thrown in /var/www/mvc.test/vendor/twig/twig/lib/Twig/Loader/Filesystem.php on line 215
+[18-Jun-2022 10:58:51 Asia/Krasnoyarsk] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /var/www/mvc.test/public/index.php(39): Core\Router->dispatch()
+#1 {main}
+Thrown in '/var/www/mvc.test/Core/Router.php' on line 130
+[18-Jun-2022 10:58:51 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught ErrorException: preg_match(): Passing null to parameter #4 ($flags) of type int is deprecated in /var/www/mvc.test/vendor/twig/twig/lib/Twig/Lexer.php:176
+Stack trace:
+#0 [internal function]: Core\Error::errorHandler()
+#1 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Lexer.php(176): preg_match()
+#2 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Lexer.php(107): Twig_Lexer->lexData()
+#3 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(577): Twig_Lexer->tokenize()
+#4 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(667): Twig_Environment->tokenize()
+#5 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(396): Twig_Environment->compileSource()
+#6 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate()
+#7 /var/www/mvc.test/Core/View.php(51): Twig_Environment->render()
+#8 /var/www/mvc.test/Core/Error.php(70): Core\View::renderTemplate()
+#9 [internal function]: Core\Error::exceptionHandler()
+#10 {main}
+
+Next Twig_Error_Syntax: An exception has been thrown during the compilation of a template ("preg_match(): Passing null to parameter #4 ($flags) of type int is deprecated") in "404.html". in /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php:678
+Stack trace:
+#0 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(396): Twig_Environment->compileSource()
+#1 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate()
+#2 /var/www/mvc.test/Core/View.php(51): Twig_Environment->render()
+#3 /var/www/mvc.test/Core/Error.php(70): Core\View::renderTemplate()
+#4 [internal function]: Core\Error::exceptionHandler()
+#5 {main}
+  thrown in /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php on line 678
+[18-Jun-2022 11:00:05 Asia/Krasnoyarsk] Uncaught exception: 'Twig_Error_Syntax' with message 'An exception has been thrown during the compilation of a template ("preg_match(): Passing null to parameter #4 ($flags) of type int is deprecated") in "Home/index.html".'
+Stack trace: #0 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(396): Twig_Environment->compileSource()
+#1 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate()
+#2 /var/www/mvc.test/Core/View.php(51): Twig_Environment->render()
+#3 /var/www/mvc.test/App/Controllers/Home.php(50): Core\View::renderTemplate()
+#4 [internal function]: App\Controllers\Home->indexAction()
+#5 /var/www/mvc.test/Core/Controller.php(48): call_user_func_array()
+#6 /var/www/mvc.test/Core/Router.php(121): Core\Controller->__call()
+#7 /var/www/mvc.test/public/index.php(39): Core\Router->dispatch()
+#8 {main}
+Thrown in '/var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php' on line 678
+[18-Jun-2022 11:00:05 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Twig_Error_Loader: Unable to find template "500.html" (looked into: ../App/Views). in /var/www/mvc.test/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:215
+Stack trace:
+#0 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(139): Twig_Loader_Filesystem->findTemplate()
+#1 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(312): Twig_Loader_Filesystem->getCacheKey()
+#2 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(378): Twig_Environment->getTemplateClass()
+#3 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate()
+#4 /var/www/mvc.test/Core/View.php(51): Twig_Environment->render()
+#5 /var/www/mvc.test/Core/Error.php(70): Core\View::renderTemplate()
+#6 [internal function]: Core\Error::exceptionHandler()
+#7 {main}
+  thrown in /var/www/mvc.test/vendor/twig/twig/lib/Twig/Loader/Filesystem.php on line 215
+[18-Jun-2022 11:00:05 Asia/Krasnoyarsk] Uncaught exception: 'Twig_Error_Syntax' with message 'An exception has been thrown during the compilation of a template ("preg_match(): Passing null to parameter #4 ($flags) of type int is deprecated") in "Home/index.html".'
+Stack trace: #0 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(396): Twig_Environment->compileSource()
+#1 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate()
+#2 /var/www/mvc.test/Core/View.php(51): Twig_Environment->render()
+#3 /var/www/mvc.test/App/Controllers/Home.php(50): Core\View::renderTemplate()
+#4 [internal function]: App\Controllers\Home->indexAction()
+#5 /var/www/mvc.test/Core/Controller.php(48): call_user_func_array()
+#6 /var/www/mvc.test/Core/Router.php(121): Core\Controller->__call()
+#7 /var/www/mvc.test/public/index.php(39): Core\Router->dispatch()
+#8 {main}
+Thrown in '/var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php' on line 678
+[18-Jun-2022 11:00:05 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Twig_Error_Loader: Unable to find template "500.html" (looked into: ../App/Views). in /var/www/mvc.test/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:215
+Stack trace:
+#0 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(139): Twig_Loader_Filesystem->findTemplate()
+#1 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(312): Twig_Loader_Filesystem->getCacheKey()
+#2 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(378): Twig_Environment->getTemplateClass()
+#3 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate()
+#4 /var/www/mvc.test/Core/View.php(51): Twig_Environment->render()
+#5 /var/www/mvc.test/Core/Error.php(70): Core\View::renderTemplate()
+#6 [internal function]: Core\Error::exceptionHandler()
+#7 {main}
+  thrown in /var/www/mvc.test/vendor/twig/twig/lib/Twig/Loader/Filesystem.php on line 215
+[18-Jun-2022 11:00:06 Asia/Krasnoyarsk] Uncaught exception: 'Twig_Error_Syntax' with message 'An exception has been thrown during the compilation of a template ("preg_match(): Passing null to parameter #4 ($flags) of type int is deprecated") in "Home/index.html".'
+Stack trace: #0 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(396): Twig_Environment->compileSource()
+#1 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate()
+#2 /var/www/mvc.test/Core/View.php(51): Twig_Environment->render()
+#3 /var/www/mvc.test/App/Controllers/Home.php(50): Core\View::renderTemplate()
+#4 [internal function]: App\Controllers\Home->indexAction()
+#5 /var/www/mvc.test/Core/Controller.php(48): call_user_func_array()
+#6 /var/www/mvc.test/Core/Router.php(121): Core\Controller->__call()
+#7 /var/www/mvc.test/public/index.php(39): Core\Router->dispatch()
+#8 {main}
+Thrown in '/var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php' on line 678
+[18-Jun-2022 11:00:06 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Twig_Error_Loader: Unable to find template "500.html" (looked into: ../App/Views). in /var/www/mvc.test/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:215
+Stack trace:
+#0 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(139): Twig_Loader_Filesystem->findTemplate()
+#1 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(312): Twig_Loader_Filesystem->getCacheKey()
+#2 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(378): Twig_Environment->getTemplateClass()
+#3 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate()
+#4 /var/www/mvc.test/Core/View.php(51): Twig_Environment->render()
+#5 /var/www/mvc.test/Core/Error.php(70): Core\View::renderTemplate()
+#6 [internal function]: Core\Error::exceptionHandler()
+#7 {main}
+  thrown in /var/www/mvc.test/vendor/twig/twig/lib/Twig/Loader/Filesystem.php on line 215
+[18-Jun-2022 11:00:06 Asia/Krasnoyarsk] Uncaught exception: 'Twig_Error_Syntax' with message 'An exception has been thrown during the compilation of a template ("preg_match(): Passing null to parameter #4 ($flags) of type int is deprecated") in "Home/index.html".'
+Stack trace: #0 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(396): Twig_Environment->compileSource()
+#1 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate()
+#2 /var/www/mvc.test/Core/View.php(51): Twig_Environment->render()
+#3 /var/www/mvc.test/App/Controllers/Home.php(50): Core\View::renderTemplate()
+#4 [internal function]: App\Controllers\Home->indexAction()
+#5 /var/www/mvc.test/Core/Controller.php(48): call_user_func_array()
+#6 /var/www/mvc.test/Core/Router.php(121): Core\Controller->__call()
+#7 /var/www/mvc.test/public/index.php(39): Core\Router->dispatch()
+#8 {main}
+Thrown in '/var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php' on line 678
+[18-Jun-2022 11:00:06 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Twig_Error_Loader: Unable to find template "500.html" (looked into: ../App/Views). in /var/www/mvc.test/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:215
+Stack trace:
+#0 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(139): Twig_Loader_Filesystem->findTemplate()
+#1 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(312): Twig_Loader_Filesystem->getCacheKey()
+#2 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(378): Twig_Environment->getTemplateClass()
+#3 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate()
+#4 /var/www/mvc.test/Core/View.php(51): Twig_Environment->render()
+#5 /var/www/mvc.test/Core/Error.php(70): Core\View::renderTemplate()
+#6 [internal function]: Core\Error::exceptionHandler()
+#7 {main}
+  thrown in /var/www/mvc.test/vendor/twig/twig/lib/Twig/Loader/Filesystem.php on line 215
+[18-Jun-2022 11:01:01 Asia/Krasnoyarsk] Uncaught exception: 'Error' with message 'Call to a member function render() on null'
+Stack trace: #0 /var/www/mvc.test/App/Controllers/Home.php(50): Core\View::renderTemplate()
+#1 [internal function]: App\Controllers\Home->indexAction()
+#2 /var/www/mvc.test/Core/Controller.php(48): call_user_func_array()
+#3 /var/www/mvc.test/Core/Router.php(121): Core\Controller->__call()
+#4 /var/www/mvc.test/public/index.php(39): Core\Router->dispatch()
+#5 {main}
+Thrown in '/var/www/mvc.test/Core/View.php' on line 51
+[18-Jun-2022 11:01:01 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Error: Call to a member function render() on null in /var/www/mvc.test/Core/View.php:51
+Stack trace:
+#0 /var/www/mvc.test/Core/Error.php(70): Core\View::renderTemplate()
+#1 [internal function]: Core\Error::exceptionHandler()
+#2 {main}
+  thrown in /var/www/mvc.test/Core/View.php on line 51
+[18-Jun-2022 11:01:03 Asia/Krasnoyarsk] Uncaught exception: 'Error' with message 'Call to a member function render() on null'
+Stack trace: #0 /var/www/mvc.test/App/Controllers/Home.php(50): Core\View::renderTemplate()
+#1 [internal function]: App\Controllers\Home->indexAction()
+#2 /var/www/mvc.test/Core/Controller.php(48): call_user_func_array()
+#3 /var/www/mvc.test/Core/Router.php(121): Core\Controller->__call()
+#4 /var/www/mvc.test/public/index.php(39): Core\Router->dispatch()
+#5 {main}
+Thrown in '/var/www/mvc.test/Core/View.php' on line 51
+[18-Jun-2022 11:01:03 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Error: Call to a member function render() on null in /var/www/mvc.test/Core/View.php:51
+Stack trace:
+#0 /var/www/mvc.test/Core/Error.php(70): Core\View::renderTemplate()
+#1 [internal function]: Core\Error::exceptionHandler()
+#2 {main}
+  thrown in /var/www/mvc.test/Core/View.php on line 51
+[18-Jun-2022 11:01:04 Asia/Krasnoyarsk] Uncaught exception: 'Twig_Error_Syntax' with message 'An exception has been thrown during the compilation of a template ("preg_match(): Passing null to parameter #4 ($flags) of type int is deprecated") in "Home/index.html".'
+Stack trace: #0 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(396): Twig_Environment->compileSource()
+#1 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate()
+#2 /var/www/mvc.test/Core/View.php(51): Twig_Environment->render()
+#3 /var/www/mvc.test/App/Controllers/Home.php(50): Core\View::renderTemplate()
+#4 [internal function]: App\Controllers\Home->indexAction()
+#5 /var/www/mvc.test/Core/Controller.php(48): call_user_func_array()
+#6 /var/www/mvc.test/Core/Router.php(121): Core\Controller->__call()
+#7 /var/www/mvc.test/public/index.php(39): Core\Router->dispatch()
+#8 {main}
+Thrown in '/var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php' on line 678
+[18-Jun-2022 11:01:04 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Twig_Error_Loader: Unable to find template "500.html" (looked into: ../App/Views). in /var/www/mvc.test/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:215
+Stack trace:
+#0 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(139): Twig_Loader_Filesystem->findTemplate()
+#1 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(312): Twig_Loader_Filesystem->getCacheKey()
+#2 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(378): Twig_Environment->getTemplateClass()
+#3 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate()
+#4 /var/www/mvc.test/Core/View.php(51): Twig_Environment->render()
+#5 /var/www/mvc.test/Core/Error.php(70): Core\View::renderTemplate()
+#6 [internal function]: Core\Error::exceptionHandler()
+#7 {main}
+  thrown in /var/www/mvc.test/vendor/twig/twig/lib/Twig/Loader/Filesystem.php on line 215
+[18-Jun-2022 11:01:04 Asia/Krasnoyarsk] Uncaught exception: 'Twig_Error_Syntax' with message 'An exception has been thrown during the compilation of a template ("preg_match(): Passing null to parameter #4 ($flags) of type int is deprecated") in "Home/index.html".'
+Stack trace: #0 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(396): Twig_Environment->compileSource()
+#1 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate()
+#2 /var/www/mvc.test/Core/View.php(51): Twig_Environment->render()
+#3 /var/www/mvc.test/App/Controllers/Home.php(50): Core\View::renderTemplate()
+#4 [internal function]: App\Controllers\Home->indexAction()
+#5 /var/www/mvc.test/Core/Controller.php(48): call_user_func_array()
+#6 /var/www/mvc.test/Core/Router.php(121): Core\Controller->__call()
+#7 /var/www/mvc.test/public/index.php(39): Core\Router->dispatch()
+#8 {main}
+Thrown in '/var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php' on line 678
+[18-Jun-2022 11:01:04 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Twig_Error_Loader: Unable to find template "500.html" (looked into: ../App/Views). in /var/www/mvc.test/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:215
+Stack trace:
+#0 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(139): Twig_Loader_Filesystem->findTemplate()
+#1 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(312): Twig_Loader_Filesystem->getCacheKey()
+#2 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(378): Twig_Environment->getTemplateClass()
+#3 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate()
+#4 /var/www/mvc.test/Core/View.php(51): Twig_Environment->render()
+#5 /var/www/mvc.test/Core/Error.php(70): Core\View::renderTemplate()
+#6 [internal function]: Core\Error::exceptionHandler()
+#7 {main}
+  thrown in /var/www/mvc.test/vendor/twig/twig/lib/Twig/Loader/Filesystem.php on line 215
+[18-Jun-2022 11:01:04 Asia/Krasnoyarsk] Uncaught exception: 'Twig_Error_Syntax' with message 'An exception has been thrown during the compilation of a template ("preg_match(): Passing null to parameter #4 ($flags) of type int is deprecated") in "Home/index.html".'
+Stack trace: #0 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(396): Twig_Environment->compileSource()
+#1 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate()
+#2 /var/www/mvc.test/Core/View.php(51): Twig_Environment->render()
+#3 /var/www/mvc.test/App/Controllers/Home.php(50): Core\View::renderTemplate()
+#4 [internal function]: App\Controllers\Home->indexAction()
+#5 /var/www/mvc.test/Core/Controller.php(48): call_user_func_array()
+#6 /var/www/mvc.test/Core/Router.php(121): Core\Controller->__call()
+#7 /var/www/mvc.test/public/index.php(39): Core\Router->dispatch()
+#8 {main}
+Thrown in '/var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php' on line 678
+[18-Jun-2022 11:01:04 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Twig_Error_Loader: Unable to find template "500.html" (looked into: ../App/Views). in /var/www/mvc.test/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:215
+Stack trace:
+#0 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(139): Twig_Loader_Filesystem->findTemplate()
+#1 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(312): Twig_Loader_Filesystem->getCacheKey()
+#2 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(378): Twig_Environment->getTemplateClass()
+#3 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate()
+#4 /var/www/mvc.test/Core/View.php(51): Twig_Environment->render()
+#5 /var/www/mvc.test/Core/Error.php(70): Core\View::renderTemplate()
+#6 [internal function]: Core\Error::exceptionHandler()
+#7 {main}
+  thrown in /var/www/mvc.test/vendor/twig/twig/lib/Twig/Loader/Filesystem.php on line 215
+[18-Jun-2022 11:01:04 Asia/Krasnoyarsk] Uncaught exception: 'Twig_Error_Syntax' with message 'An exception has been thrown during the compilation of a template ("preg_match(): Passing null to parameter #4 ($flags) of type int is deprecated") in "Home/index.html".'
+Stack trace: #0 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(396): Twig_Environment->compileSource()
+#1 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate()
+#2 /var/www/mvc.test/Core/View.php(51): Twig_Environment->render()
+#3 /var/www/mvc.test/App/Controllers/Home.php(50): Core\View::renderTemplate()
+#4 [internal function]: App\Controllers\Home->indexAction()
+#5 /var/www/mvc.test/Core/Controller.php(48): call_user_func_array()
+#6 /var/www/mvc.test/Core/Router.php(121): Core\Controller->__call()
+#7 /var/www/mvc.test/public/index.php(39): Core\Router->dispatch()
+#8 {main}
+Thrown in '/var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php' on line 678
+[18-Jun-2022 11:01:04 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Twig_Error_Loader: Unable to find template "500.html" (looked into: ../App/Views). in /var/www/mvc.test/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:215
+Stack trace:
+#0 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(139): Twig_Loader_Filesystem->findTemplate()
+#1 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(312): Twig_Loader_Filesystem->getCacheKey()
+#2 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(378): Twig_Environment->getTemplateClass()
+#3 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate()
+#4 /var/www/mvc.test/Core/View.php(51): Twig_Environment->render()
+#5 /var/www/mvc.test/Core/Error.php(70): Core\View::renderTemplate()
+#6 [internal function]: Core\Error::exceptionHandler()
+#7 {main}
+  thrown in /var/www/mvc.test/vendor/twig/twig/lib/Twig/Loader/Filesystem.php on line 215
+[18-Jun-2022 11:01:04 Asia/Krasnoyarsk] Uncaught exception: 'Twig_Error_Syntax' with message 'An exception has been thrown during the compilation of a template ("preg_match(): Passing null to parameter #4 ($flags) of type int is deprecated") in "Home/index.html".'
+Stack trace: #0 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(396): Twig_Environment->compileSource()
+#1 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate()
+#2 /var/www/mvc.test/Core/View.php(51): Twig_Environment->render()
+#3 /var/www/mvc.test/App/Controllers/Home.php(50): Core\View::renderTemplate()
+#4 [internal function]: App\Controllers\Home->indexAction()
+#5 /var/www/mvc.test/Core/Controller.php(48): call_user_func_array()
+#6 /var/www/mvc.test/Core/Router.php(121): Core\Controller->__call()
+#7 /var/www/mvc.test/public/index.php(39): Core\Router->dispatch()
+#8 {main}
+Thrown in '/var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php' on line 678
+[18-Jun-2022 11:01:04 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Twig_Error_Loader: Unable to find template "500.html" (looked into: ../App/Views). in /var/www/mvc.test/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:215
+Stack trace:
+#0 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(139): Twig_Loader_Filesystem->findTemplate()
+#1 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(312): Twig_Loader_Filesystem->getCacheKey()
+#2 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(378): Twig_Environment->getTemplateClass()
+#3 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate()
+#4 /var/www/mvc.test/Core/View.php(51): Twig_Environment->render()
+#5 /var/www/mvc.test/Core/Error.php(70): Core\View::renderTemplate()
+#6 [internal function]: Core\Error::exceptionHandler()
+#7 {main}
+  thrown in /var/www/mvc.test/vendor/twig/twig/lib/Twig/Loader/Filesystem.php on line 215
+[18-Jun-2022 11:01:04 Asia/Krasnoyarsk] Uncaught exception: 'Twig_Error_Syntax' with message 'An exception has been thrown during the compilation of a template ("preg_match(): Passing null to parameter #4 ($flags) of type int is deprecated") in "Home/index.html".'
+Stack trace: #0 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(396): Twig_Environment->compileSource()
+#1 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate()
+#2 /var/www/mvc.test/Core/View.php(51): Twig_Environment->render()
+#3 /var/www/mvc.test/App/Controllers/Home.php(50): Core\View::renderTemplate()
+#4 [internal function]: App\Controllers\Home->indexAction()
+#5 /var/www/mvc.test/Core/Controller.php(48): call_user_func_array()
+#6 /var/www/mvc.test/Core/Router.php(121): Core\Controller->__call()
+#7 /var/www/mvc.test/public/index.php(39): Core\Router->dispatch()
+#8 {main}
+Thrown in '/var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php' on line 678
+[18-Jun-2022 11:01:04 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Twig_Error_Loader: Unable to find template "500.html" (looked into: ../App/Views). in /var/www/mvc.test/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:215
+Stack trace:
+#0 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(139): Twig_Loader_Filesystem->findTemplate()
+#1 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(312): Twig_Loader_Filesystem->getCacheKey()
+#2 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(378): Twig_Environment->getTemplateClass()
+#3 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate()
+#4 /var/www/mvc.test/Core/View.php(51): Twig_Environment->render()
+#5 /var/www/mvc.test/Core/Error.php(70): Core\View::renderTemplate()
+#6 [internal function]: Core\Error::exceptionHandler()
+#7 {main}
+  thrown in /var/www/mvc.test/vendor/twig/twig/lib/Twig/Loader/Filesystem.php on line 215
+[18-Jun-2022 11:07:36 Asia/Krasnoyarsk] Uncaught exception: 'Twig_Error_Syntax' with message 'An exception has been thrown during the compilation of a template ("preg_match(): Passing null to parameter #4 ($flags) of type int is deprecated") in "Home/index.html".'
+Stack trace: #0 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(396): Twig_Environment->compileSource()
+#1 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate()
+#2 /var/www/mvc.test/Core/View.php(51): Twig_Environment->render()
+#3 /var/www/mvc.test/App/Controllers/Home.php(50): Core\View::renderTemplate()
+#4 [internal function]: App\Controllers\Home->indexAction()
+#5 /var/www/mvc.test/Core/Controller.php(48): call_user_func_array()
+#6 /var/www/mvc.test/Core/Router.php(121): Core\Controller->__call()
+#7 /var/www/mvc.test/public/index.php(40): Core\Router->dispatch()
+#8 {main}
+Thrown in '/var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php' on line 678
+[18-Jun-2022 11:07:36 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught ErrorException: preg_match(): Passing null to parameter #4 ($flags) of type int is deprecated in /var/www/mvc.test/vendor/twig/twig/lib/Twig/Lexer.php:176
+Stack trace:
+#0 [internal function]: Core\Error::errorHandler()
+#1 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Lexer.php(176): preg_match()
+#2 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Lexer.php(107): Twig_Lexer->lexData()
+#3 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(577): Twig_Lexer->tokenize()
+#4 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(667): Twig_Environment->tokenize()
+#5 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(396): Twig_Environment->compileSource()
+#6 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate()
+#7 /var/www/mvc.test/Core/View.php(51): Twig_Environment->render()
+#8 /var/www/mvc.test/Core/Error.php(70): Core\View::renderTemplate()
+#9 [internal function]: Core\Error::exceptionHandler()
+#10 {main}
+
+Next Twig_Error_Syntax: An exception has been thrown during the compilation of a template ("preg_match(): Passing null to parameter #4 ($flags) of type int is deprecated") in "500.html". in /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php:678
+Stack trace:
+#0 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(396): Twig_Environment->compileSource()
+#1 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate()
+#2 /var/www/mvc.test/Core/View.php(51): Twig_Environment->render()
+#3 /var/www/mvc.test/Core/Error.php(70): Core\View::renderTemplate()
+#4 [internal function]: Core\Error::exceptionHandler()
+#5 {main}
+  thrown in /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php on line 678
+[18-Jun-2022 11:07:38 Asia/Krasnoyarsk] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /var/www/mvc.test/public/index.php(40): Core\Router->dispatch()
+#1 {main}
+Thrown in '/var/www/mvc.test/Core/Router.php' on line 130
+[18-Jun-2022 11:07:38 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught ErrorException: preg_match(): Passing null to parameter #4 ($flags) of type int is deprecated in /var/www/mvc.test/vendor/twig/twig/lib/Twig/Lexer.php:176
+Stack trace:
+#0 [internal function]: Core\Error::errorHandler()
+#1 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Lexer.php(176): preg_match()
+#2 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Lexer.php(107): Twig_Lexer->lexData()
+#3 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(577): Twig_Lexer->tokenize()
+#4 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(667): Twig_Environment->tokenize()
+#5 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(396): Twig_Environment->compileSource()
+#6 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate()
+#7 /var/www/mvc.test/Core/View.php(51): Twig_Environment->render()
+#8 /var/www/mvc.test/Core/Error.php(70): Core\View::renderTemplate()
+#9 [internal function]: Core\Error::exceptionHandler()
+#10 {main}
+
+Next Twig_Error_Syntax: An exception has been thrown during the compilation of a template ("preg_match(): Passing null to parameter #4 ($flags) of type int is deprecated") in "404.html". in /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php:678
+Stack trace:
+#0 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(396): Twig_Environment->compileSource()
+#1 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate()
+#2 /var/www/mvc.test/Core/View.php(51): Twig_Environment->render()
+#3 /var/www/mvc.test/Core/Error.php(70): Core\View::renderTemplate()
+#4 [internal function]: Core\Error::exceptionHandler()
+#5 {main}
+  thrown in /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php on line 678
+[18-Jun-2022 11:07:42 Asia/Krasnoyarsk] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /var/www/mvc.test/public/index.php(40): Core\Router->dispatch()
+#1 {main}
+Thrown in '/var/www/mvc.test/Core/Router.php' on line 130
+[18-Jun-2022 11:07:42 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught ErrorException: preg_match(): Passing null to parameter #4 ($flags) of type int is deprecated in /var/www/mvc.test/vendor/twig/twig/lib/Twig/Lexer.php:176
+Stack trace:
+#0 [internal function]: Core\Error::errorHandler()
+#1 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Lexer.php(176): preg_match()
+#2 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Lexer.php(107): Twig_Lexer->lexData()
+#3 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(577): Twig_Lexer->tokenize()
+#4 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(667): Twig_Environment->tokenize()
+#5 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(396): Twig_Environment->compileSource()
+#6 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate()
+#7 /var/www/mvc.test/Core/View.php(51): Twig_Environment->render()
+#8 /var/www/mvc.test/Core/Error.php(70): Core\View::renderTemplate()
+#9 [internal function]: Core\Error::exceptionHandler()
+#10 {main}
+
+Next Twig_Error_Syntax: An exception has been thrown during the compilation of a template ("preg_match(): Passing null to parameter #4 ($flags) of type int is deprecated") in "404.html". in /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php:678
+Stack trace:
+#0 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(396): Twig_Environment->compileSource()
+#1 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate()
+#2 /var/www/mvc.test/Core/View.php(51): Twig_Environment->render()
+#3 /var/www/mvc.test/Core/Error.php(70): Core\View::renderTemplate()
+#4 [internal function]: Core\Error::exceptionHandler()
+#5 {main}
+  thrown in /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php on line 678
+[18-Jun-2022 11:07:48 Asia/Krasnoyarsk] Uncaught exception: 'Twig_Error_Syntax' with message 'An exception has been thrown during the compilation of a template ("preg_match(): Passing null to parameter #4 ($flags) of type int is deprecated") in "Home/index.html".'
+Stack trace: #0 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(396): Twig_Environment->compileSource()
+#1 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate()
+#2 /var/www/mvc.test/Core/View.php(51): Twig_Environment->render()
+#3 /var/www/mvc.test/App/Controllers/Home.php(50): Core\View::renderTemplate()
+#4 [internal function]: App\Controllers\Home->indexAction()
+#5 /var/www/mvc.test/Core/Controller.php(48): call_user_func_array()
+#6 /var/www/mvc.test/Core/Router.php(121): Core\Controller->__call()
+#7 /var/www/mvc.test/public/index.php(40): Core\Router->dispatch()
+#8 {main}
+Thrown in '/var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php' on line 678
+[18-Jun-2022 11:07:48 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught ErrorException: preg_match(): Passing null to parameter #4 ($flags) of type int is deprecated in /var/www/mvc.test/vendor/twig/twig/lib/Twig/Lexer.php:176
+Stack trace:
+#0 [internal function]: Core\Error::errorHandler()
+#1 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Lexer.php(176): preg_match()
+#2 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Lexer.php(107): Twig_Lexer->lexData()
+#3 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(577): Twig_Lexer->tokenize()
+#4 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(667): Twig_Environment->tokenize()
+#5 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(396): Twig_Environment->compileSource()
+#6 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate()
+#7 /var/www/mvc.test/Core/View.php(51): Twig_Environment->render()
+#8 /var/www/mvc.test/Core/Error.php(70): Core\View::renderTemplate()
+#9 [internal function]: Core\Error::exceptionHandler()
+#10 {main}
+
+Next Twig_Error_Syntax: An exception has been thrown during the compilation of a template ("preg_match(): Passing null to parameter #4 ($flags) of type int is deprecated") in "500.html". in /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php:678
+Stack trace:
+#0 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(396): Twig_Environment->compileSource()
+#1 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate()
+#2 /var/www/mvc.test/Core/View.php(51): Twig_Environment->render()
+#3 /var/www/mvc.test/Core/Error.php(70): Core\View::renderTemplate()
+#4 [internal function]: Core\Error::exceptionHandler()
+#5 {main}
+  thrown in /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php on line 678
+[18-Jun-2022 11:22:59 Asia/Krasnoyarsk] Uncaught exception: 'Twig_Error_Syntax' with message 'An exception has been thrown during the compilation of a template ("preg_match(): Passing null to parameter #4 ($flags) of type int is deprecated") in "Posts/index.html".'
+Stack trace: #0 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(396): Twig_Environment->compileSource()
+#1 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate()
+#2 /var/www/mvc.test/Core/View.php(51): Twig_Environment->render()
+#3 /var/www/mvc.test/App/Controllers/Posts.php(26): Core\View::renderTemplate()
+#4 [internal function]: App\Controllers\Posts->indexAction()
+#5 /var/www/mvc.test/Core/Controller.php(48): call_user_func_array()
+#6 /var/www/mvc.test/Core/Router.php(121): Core\Controller->__call()
+#7 /var/www/mvc.test/public/index.php(40): Core\Router->dispatch()
+#8 {main}
+Thrown in '/var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php' on line 678
+[18-Jun-2022 11:22:59 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught ErrorException: preg_match(): Passing null to parameter #4 ($flags) of type int is deprecated in /var/www/mvc.test/vendor/twig/twig/lib/Twig/Lexer.php:176
+Stack trace:
+#0 [internal function]: Core\Error::errorHandler()
+#1 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Lexer.php(176): preg_match()
+#2 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Lexer.php(107): Twig_Lexer->lexData()
+#3 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(577): Twig_Lexer->tokenize()
+#4 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(667): Twig_Environment->tokenize()
+#5 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(396): Twig_Environment->compileSource()
+#6 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate()
+#7 /var/www/mvc.test/Core/View.php(51): Twig_Environment->render()
+#8 /var/www/mvc.test/Core/Error.php(70): Core\View::renderTemplate()
+#9 [internal function]: Core\Error::exceptionHandler()
+#10 {main}
+
+Next Twig_Error_Syntax: An exception has been thrown during the compilation of a template ("preg_match(): Passing null to parameter #4 ($flags) of type int is deprecated") in "500.html". in /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php:678
+Stack trace:
+#0 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(396): Twig_Environment->compileSource()
+#1 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate()
+#2 /var/www/mvc.test/Core/View.php(51): Twig_Environment->render()
+#3 /var/www/mvc.test/Core/Error.php(70): Core\View::renderTemplate()
+#4 [internal function]: Core\Error::exceptionHandler()
+#5 {main}
+  thrown in /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php on line 678
+[18-Jun-2022 11:23:02 Asia/Krasnoyarsk] Uncaught exception: 'Twig_Error_Syntax' with message 'An exception has been thrown during the compilation of a template ("preg_match(): Passing null to parameter #4 ($flags) of type int is deprecated") in "Home/index.html".'
+Stack trace: #0 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(396): Twig_Environment->compileSource()
+#1 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate()
+#2 /var/www/mvc.test/Core/View.php(51): Twig_Environment->render()
+#3 /var/www/mvc.test/App/Controllers/Home.php(50): Core\View::renderTemplate()
+#4 [internal function]: App\Controllers\Home->indexAction()
+#5 /var/www/mvc.test/Core/Controller.php(48): call_user_func_array()
+#6 /var/www/mvc.test/Core/Router.php(121): Core\Controller->__call()
+#7 /var/www/mvc.test/public/index.php(40): Core\Router->dispatch()
+#8 {main}
+Thrown in '/var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php' on line 678
+[18-Jun-2022 11:23:02 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught ErrorException: preg_match(): Passing null to parameter #4 ($flags) of type int is deprecated in /var/www/mvc.test/vendor/twig/twig/lib/Twig/Lexer.php:176
+Stack trace:
+#0 [internal function]: Core\Error::errorHandler()
+#1 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Lexer.php(176): preg_match()
+#2 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Lexer.php(107): Twig_Lexer->lexData()
+#3 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(577): Twig_Lexer->tokenize()
+#4 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(667): Twig_Environment->tokenize()
+#5 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(396): Twig_Environment->compileSource()
+#6 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate()
+#7 /var/www/mvc.test/Core/View.php(51): Twig_Environment->render()
+#8 /var/www/mvc.test/Core/Error.php(70): Core\View::renderTemplate()
+#9 [internal function]: Core\Error::exceptionHandler()
+#10 {main}
+
+Next Twig_Error_Syntax: An exception has been thrown during the compilation of a template ("preg_match(): Passing null to parameter #4 ($flags) of type int is deprecated") in "500.html". in /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php:678
+Stack trace:
+#0 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(396): Twig_Environment->compileSource()
+#1 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate()
+#2 /var/www/mvc.test/Core/View.php(51): Twig_Environment->render()
+#3 /var/www/mvc.test/Core/Error.php(70): Core\View::renderTemplate()
+#4 [internal function]: Core\Error::exceptionHandler()
+#5 {main}
+  thrown in /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php on line 678
+[18-Jun-2022 11:23:02 Asia/Krasnoyarsk] Uncaught exception: 'Twig_Error_Syntax' with message 'An exception has been thrown during the compilation of a template ("preg_match(): Passing null to parameter #4 ($flags) of type int is deprecated") in "Home/index.html".'
+Stack trace: #0 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(396): Twig_Environment->compileSource()
+#1 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate()
+#2 /var/www/mvc.test/Core/View.php(51): Twig_Environment->render()
+#3 /var/www/mvc.test/App/Controllers/Home.php(50): Core\View::renderTemplate()
+#4 [internal function]: App\Controllers\Home->indexAction()
+#5 /var/www/mvc.test/Core/Controller.php(48): call_user_func_array()
+#6 /var/www/mvc.test/Core/Router.php(121): Core\Controller->__call()
+#7 /var/www/mvc.test/public/index.php(40): Core\Router->dispatch()
+#8 {main}
+Thrown in '/var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php' on line 678
+[18-Jun-2022 11:23:02 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught ErrorException: preg_match(): Passing null to parameter #4 ($flags) of type int is deprecated in /var/www/mvc.test/vendor/twig/twig/lib/Twig/Lexer.php:176
+Stack trace:
+#0 [internal function]: Core\Error::errorHandler()
+#1 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Lexer.php(176): preg_match()
+#2 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Lexer.php(107): Twig_Lexer->lexData()
+#3 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(577): Twig_Lexer->tokenize()
+#4 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(667): Twig_Environment->tokenize()
+#5 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(396): Twig_Environment->compileSource()
+#6 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate()
+#7 /var/www/mvc.test/Core/View.php(51): Twig_Environment->render()
+#8 /var/www/mvc.test/Core/Error.php(70): Core\View::renderTemplate()
+#9 [internal function]: Core\Error::exceptionHandler()
+#10 {main}
+
+Next Twig_Error_Syntax: An exception has been thrown during the compilation of a template ("preg_match(): Passing null to parameter #4 ($flags) of type int is deprecated") in "500.html". in /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php:678
+Stack trace:
+#0 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(396): Twig_Environment->compileSource()
+#1 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate()
+#2 /var/www/mvc.test/Core/View.php(51): Twig_Environment->render()
+#3 /var/www/mvc.test/Core/Error.php(70): Core\View::renderTemplate()
+#4 [internal function]: Core\Error::exceptionHandler()
+#5 {main}
+  thrown in /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php on line 678
+[18-Jun-2022 11:23:03 Asia/Krasnoyarsk] Uncaught exception: 'Twig_Error_Syntax' with message 'An exception has been thrown during the compilation of a template ("preg_match(): Passing null to parameter #4 ($flags) of type int is deprecated") in "Home/index.html".'
+Stack trace: #0 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(396): Twig_Environment->compileSource()
+#1 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate()
+#2 /var/www/mvc.test/Core/View.php(51): Twig_Environment->render()
+#3 /var/www/mvc.test/App/Controllers/Home.php(50): Core\View::renderTemplate()
+#4 [internal function]: App\Controllers\Home->indexAction()
+#5 /var/www/mvc.test/Core/Controller.php(48): call_user_func_array()
+#6 /var/www/mvc.test/Core/Router.php(121): Core\Controller->__call()
+#7 /var/www/mvc.test/public/index.php(40): Core\Router->dispatch()
+#8 {main}
+Thrown in '/var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php' on line 678
+[18-Jun-2022 11:23:03 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught ErrorException: preg_match(): Passing null to parameter #4 ($flags) of type int is deprecated in /var/www/mvc.test/vendor/twig/twig/lib/Twig/Lexer.php:176
+Stack trace:
+#0 [internal function]: Core\Error::errorHandler()
+#1 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Lexer.php(176): preg_match()
+#2 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Lexer.php(107): Twig_Lexer->lexData()
+#3 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(577): Twig_Lexer->tokenize()
+#4 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(667): Twig_Environment->tokenize()
+#5 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(396): Twig_Environment->compileSource()
+#6 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate()
+#7 /var/www/mvc.test/Core/View.php(51): Twig_Environment->render()
+#8 /var/www/mvc.test/Core/Error.php(70): Core\View::renderTemplate()
+#9 [internal function]: Core\Error::exceptionHandler()
+#10 {main}
+
+Next Twig_Error_Syntax: An exception has been thrown during the compilation of a template ("preg_match(): Passing null to parameter #4 ($flags) of type int is deprecated") in "500.html". in /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php:678
+Stack trace:
+#0 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(396): Twig_Environment->compileSource()
+#1 /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate()
+#2 /var/www/mvc.test/Core/View.php(51): Twig_Environment->render()
+#3 /var/www/mvc.test/Core/Error.php(70): Core\View::renderTemplate()
+#4 [internal function]: Core\Error::exceptionHandler()
+#5 {main}
+  thrown in /var/www/mvc.test/vendor/twig/twig/lib/Twig/Environment.php on line 678

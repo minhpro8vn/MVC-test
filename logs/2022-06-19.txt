@@ -1,0 +1,319 @@
+[19-Jun-2022 10:40:37 Asia/Krasnoyarsk] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /var/www/mvc.test/public/index.php(40): Core\Router->dispatch()
+#1 {main}
+Thrown in '/var/www/mvc.test/Core/Router.php' on line 130
+[19-Jun-2022 10:49:03 Asia/Krasnoyarsk] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /var/www/mvc.test/public/index.php(40): Core\Router->dispatch()
+#1 {main}
+Thrown in '/var/www/mvc.test/Core/Router.php' on line 130
+[19-Jun-2022 10:49:08 Asia/Krasnoyarsk] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /var/www/mvc.test/public/index.php(40): Core\Router->dispatch()
+#1 {main}
+Thrown in '/var/www/mvc.test/Core/Router.php' on line 130
+[19-Jun-2022 10:49:43 Asia/Krasnoyarsk] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /var/www/mvc.test/public/index.php(40): Core\Router->dispatch()
+#1 {main}
+Thrown in '/var/www/mvc.test/Core/Router.php' on line 130
+[19-Jun-2022 11:05:16 Asia/Krasnoyarsk] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /var/www/mvc.test/public/index.php(40): Core\Router->dispatch()
+#1 {main}
+Thrown in '/var/www/mvc.test/Core/Router.php' on line 130
+[19-Jun-2022 11:06:08 Asia/Krasnoyarsk] Uncaught exception: 'Error' with message 'Class "Router" not found'
+Stack trace: #0 {main}
+Thrown in '/var/www/mvc.test/public/index.php' on line 32
+[19-Jun-2022 11:06:09 Asia/Krasnoyarsk] Uncaught exception: 'Error' with message 'Class "Router" not found'
+Stack trace: #0 {main}
+Thrown in '/var/www/mvc.test/public/index.php' on line 32
+[19-Jun-2022 11:06:10 Asia/Krasnoyarsk] Uncaught exception: 'Error' with message 'Class "Router" not found'
+Stack trace: #0 {main}
+Thrown in '/var/www/mvc.test/public/index.php' on line 32
+[19-Jun-2022 11:06:10 Asia/Krasnoyarsk] Uncaught exception: 'Error' with message 'Class "Router" not found'
+Stack trace: #0 {main}
+Thrown in '/var/www/mvc.test/public/index.php' on line 32
+[19-Jun-2022 11:07:02 Asia/Krasnoyarsk] Uncaught exception: 'Exception' with message 'Method newAction not found in controller App\Controllers\Posts'
+Stack trace: #0 /var/www/mvc.test/Core/Router.php(121): Core\Controller->__call()
+#1 /var/www/mvc.test/public/index.php(40): Core\Router->dispatch()
+#2 {main}
+Thrown in '/var/www/mvc.test/Core/Controller.php' on line 52
+[19-Jun-2022 11:07:06 Asia/Krasnoyarsk] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /var/www/mvc.test/public/index.php(40): Core\Router->dispatch()
+#1 {main}
+Thrown in '/var/www/mvc.test/Core/Router.php' on line 130
+[19-Jun-2022 11:34:39 Asia/Krasnoyarsk] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /var/www/mvc.test/public/index.php(40): Core\Router->dispatch()
+#1 {main}
+Thrown in '/var/www/mvc.test/Core/Router.php' on line 131
+[19-Jun-2022 13:17:31 Asia/Krasnoyarsk] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /var/www/mvc.test/public/index.php(40): Core\Router->dispatch()
+#1 {main}
+Thrown in '/var/www/mvc.test/Core/Router.php' on line 137
+[19-Jun-2022 13:23:33 Asia/Krasnoyarsk] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /var/www/mvc.test/public/index.php(40): Core\Router->dispatch()
+#1 {main}
+Thrown in '/var/www/mvc.test/Core/Router.php' on line 137
+[19-Jun-2022 15:15:39 Asia/Krasnoyarsk] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /var/www/mvc.test/public/index.php(40): Core\Router->dispatch()
+#1 {main}
+Thrown in '/var/www/mvc.test/Core/Router.php' on line 124
+[19-Jun-2022 15:15:40 Asia/Krasnoyarsk] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /var/www/mvc.test/public/index.php(40): Core\Router->dispatch()
+#1 {main}
+Thrown in '/var/www/mvc.test/Core/Router.php' on line 124
+[19-Jun-2022 15:15:40 Asia/Krasnoyarsk] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /var/www/mvc.test/public/index.php(40): Core\Router->dispatch()
+#1 {main}
+Thrown in '/var/www/mvc.test/Core/Router.php' on line 124
+[19-Jun-2022 15:15:41 Asia/Krasnoyarsk] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /var/www/mvc.test/public/index.php(40): Core\Router->dispatch()
+#1 {main}
+Thrown in '/var/www/mvc.test/Core/Router.php' on line 124
+[19-Jun-2022 15:27:30 Asia/Krasnoyarsk] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Admin\ not found'
+Stack trace: #0 /var/www/mvc.test/public/index.php(40): Core\Router->dispatch()
+#1 {main}
+Thrown in '/var/www/mvc.test/Core/Router.php' on line 129
+[19-Jun-2022 15:27:35 Asia/Krasnoyarsk] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /var/www/mvc.test/public/index.php(40): Core\Router->dispatch()
+#1 {main}
+Thrown in '/var/www/mvc.test/Core/Router.php' on line 132
+[19-Jun-2022 15:38:03 Asia/Krasnoyarsk] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Admin\ not found'
+Stack trace: #0 /var/www/mvc.test/public/index.php(40): Core\Router->dispatch()
+#1 {main}
+Thrown in '/var/www/mvc.test/Core/Router.php' on line 130
+[19-Jun-2022 15:38:04 Asia/Krasnoyarsk] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Admin\ not found'
+Stack trace: #0 /var/www/mvc.test/public/index.php(40): Core\Router->dispatch()
+#1 {main}
+Thrown in '/var/www/mvc.test/Core/Router.php' on line 130
+[19-Jun-2022 15:38:04 Asia/Krasnoyarsk] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Admin\ not found'
+Stack trace: #0 /var/www/mvc.test/public/index.php(40): Core\Router->dispatch()
+#1 {main}
+Thrown in '/var/www/mvc.test/Core/Router.php' on line 130
+[19-Jun-2022 19:47:38 Asia/Krasnoyarsk] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Posts not found'
+Stack trace: #0 /var/www/mvc.test/public/index.php(40): Core\Router->dispatch()
+#1 {main}
+Thrown in '/var/www/mvc.test/Core/Router.php' on line 127
+[19-Jun-2022 19:47:41 Asia/Krasnoyarsk] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Posts not found'
+Stack trace: #0 /var/www/mvc.test/public/index.php(40): Core\Router->dispatch()
+#1 {main}
+Thrown in '/var/www/mvc.test/Core/Router.php' on line 127
+[19-Jun-2022 19:47:42 Asia/Krasnoyarsk] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Posts not found'
+Stack trace: #0 /var/www/mvc.test/public/index.php(40): Core\Router->dispatch()
+#1 {main}
+Thrown in '/var/www/mvc.test/Core/Router.php' on line 127
+[19-Jun-2022 19:47:43 Asia/Krasnoyarsk] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Posts not found'
+Stack trace: #0 /var/www/mvc.test/public/index.php(40): Core\Router->dispatch()
+#1 {main}
+Thrown in '/var/www/mvc.test/Core/Router.php' on line 127
+[19-Jun-2022 20:51:41 Asia/Krasnoyarsk] Uncaught exception: 'Error' with message 'Object of class App\Controllers\Posts could not be converted to string'
+Stack trace: #0 /var/www/mvc.test/public/index.php(29): Core\Router->dispatch()
+#1 {main}
+Thrown in '/var/www/mvc.test/Core/Router.php' on line 92
+[19-Jun-2022 20:51:43 Asia/Krasnoyarsk] Uncaught exception: 'Error' with message 'Object of class App\Controllers\Home could not be converted to string'
+Stack trace: #0 /var/www/mvc.test/public/index.php(29): Core\Router->dispatch()
+#1 {main}
+Thrown in '/var/www/mvc.test/Core/Router.php' on line 92
+[19-Jun-2022 20:51:44 Asia/Krasnoyarsk] Uncaught exception: 'Error' with message 'Object of class App\Controllers\Posts could not be converted to string'
+Stack trace: #0 /var/www/mvc.test/public/index.php(29): Core\Router->dispatch()
+#1 {main}
+Thrown in '/var/www/mvc.test/Core/Router.php' on line 92
+[19-Jun-2022 20:51:55 Asia/Krasnoyarsk] Uncaught exception: 'Error' with message 'Object of class App\Controllers\Home could not be converted to string'
+Stack trace: #0 /var/www/mvc.test/public/index.php(29): Core\Router->dispatch()
+#1 {main}
+Thrown in '/var/www/mvc.test/Core/Router.php' on line 92
+[19-Jun-2022 20:52:10 Asia/Krasnoyarsk] Uncaught exception: 'Error' with message 'Object of class Core\Router could not be converted to string'
+Stack trace: #0 /var/www/mvc.test/public/index.php(29): Core\Router->dispatch()
+#1 {main}
+Thrown in '/var/www/mvc.test/Core/Router.php' on line 92
+[19-Jun-2022 20:52:11 Asia/Krasnoyarsk] Uncaught exception: 'Error' with message 'Object of class Core\Router could not be converted to string'
+Stack trace: #0 /var/www/mvc.test/public/index.php(29): Core\Router->dispatch()
+#1 {main}
+Thrown in '/var/www/mvc.test/Core/Router.php' on line 92
+[19-Jun-2022 20:52:12 Asia/Krasnoyarsk] Uncaught exception: 'Error' with message 'Object of class Core\Router could not be converted to string'
+Stack trace: #0 /var/www/mvc.test/public/index.php(29): Core\Router->dispatch()
+#1 {main}
+Thrown in '/var/www/mvc.test/Core/Router.php' on line 92
+[19-Jun-2022 20:52:14 Asia/Krasnoyarsk] Uncaught exception: 'Error' with message 'Object of class Core\Router could not be converted to string'
+Stack trace: #0 /var/www/mvc.test/public/index.php(29): Core\Router->dispatch()
+#1 {main}
+Thrown in '/var/www/mvc.test/Core/Router.php' on line 92
+[19-Jun-2022 20:55:14 Asia/Krasnoyarsk] Uncaught exception: 'ParseError' with message 'syntax error, unexpected token "}", expecting "," or ";"'
+Stack trace: #0 /var/www/mvc.test/vendor/composer/ClassLoader.php(301): Composer\Autoload\includeFile()
+#1 /var/www/mvc.test/App/Controllers/Home.php(12): Composer\Autoload\ClassLoader->loadClass()
+#2 /var/www/mvc.test/vendor/composer/ClassLoader.php(412): include('...')
+#3 /var/www/mvc.test/vendor/composer/ClassLoader.php(301): Composer\Autoload\includeFile()
+#4 [internal function]: Composer\Autoload\ClassLoader->loadClass()
+#5 /var/www/mvc.test/Core/Router.php(90): class_exists()
+#6 /var/www/mvc.test/public/index.php(29): Core\Router->dispatch()
+#7 {main}
+Thrown in '/var/www/mvc.test/Core/Controller.php' on line 30
+[19-Jun-2022 20:55:16 Asia/Krasnoyarsk] Uncaught exception: 'ParseError' with message 'syntax error, unexpected token "}", expecting "," or ";"'
+Stack trace: #0 /var/www/mvc.test/vendor/composer/ClassLoader.php(301): Composer\Autoload\includeFile()
+#1 /var/www/mvc.test/App/Controllers/Posts.php(13): Composer\Autoload\ClassLoader->loadClass()
+#2 /var/www/mvc.test/vendor/composer/ClassLoader.php(412): include('...')
+#3 /var/www/mvc.test/vendor/composer/ClassLoader.php(301): Composer\Autoload\includeFile()
+#4 [internal function]: Composer\Autoload\ClassLoader->loadClass()
+#5 /var/www/mvc.test/Core/Router.php(90): class_exists()
+#6 /var/www/mvc.test/public/index.php(29): Core\Router->dispatch()
+#7 {main}
+Thrown in '/var/www/mvc.test/Core/Controller.php' on line 30
+[19-Jun-2022 20:55:32 Asia/Krasnoyarsk] Uncaught exception: 'ParseError' with message 'syntax error, unexpected token "}", expecting "," or ";"'
+Stack trace: #0 /var/www/mvc.test/vendor/composer/ClassLoader.php(301): Composer\Autoload\includeFile()
+#1 /var/www/mvc.test/App/Controllers/Posts.php(13): Composer\Autoload\ClassLoader->loadClass()
+#2 /var/www/mvc.test/vendor/composer/ClassLoader.php(412): include('...')
+#3 /var/www/mvc.test/vendor/composer/ClassLoader.php(301): Composer\Autoload\includeFile()
+#4 [internal function]: Composer\Autoload\ClassLoader->loadClass()
+#5 /var/www/mvc.test/Core/Router.php(90): class_exists()
+#6 /var/www/mvc.test/public/index.php(29): Core\Router->dispatch()
+#7 {main}
+Thrown in '/var/www/mvc.test/Core/Controller.php' on line 30
+[19-Jun-2022 20:55:32 Asia/Krasnoyarsk] Uncaught exception: 'ParseError' with message 'syntax error, unexpected token "}", expecting "," or ";"'
+Stack trace: #0 /var/www/mvc.test/vendor/composer/ClassLoader.php(301): Composer\Autoload\includeFile()
+#1 /var/www/mvc.test/App/Controllers/Posts.php(13): Composer\Autoload\ClassLoader->loadClass()
+#2 /var/www/mvc.test/vendor/composer/ClassLoader.php(412): include('...')
+#3 /var/www/mvc.test/vendor/composer/ClassLoader.php(301): Composer\Autoload\includeFile()
+#4 [internal function]: Composer\Autoload\ClassLoader->loadClass()
+#5 /var/www/mvc.test/Core/Router.php(90): class_exists()
+#6 /var/www/mvc.test/public/index.php(29): Core\Router->dispatch()
+#7 {main}
+Thrown in '/var/www/mvc.test/Core/Controller.php' on line 30
+[19-Jun-2022 20:55:33 Asia/Krasnoyarsk] Uncaught exception: 'ParseError' with message 'syntax error, unexpected token "}", expecting "," or ";"'
+Stack trace: #0 /var/www/mvc.test/vendor/composer/ClassLoader.php(301): Composer\Autoload\includeFile()
+#1 /var/www/mvc.test/App/Controllers/Posts.php(13): Composer\Autoload\ClassLoader->loadClass()
+#2 /var/www/mvc.test/vendor/composer/ClassLoader.php(412): include('...')
+#3 /var/www/mvc.test/vendor/composer/ClassLoader.php(301): Composer\Autoload\includeFile()
+#4 [internal function]: Composer\Autoload\ClassLoader->loadClass()
+#5 /var/www/mvc.test/Core/Router.php(90): class_exists()
+#6 /var/www/mvc.test/public/index.php(29): Core\Router->dispatch()
+#7 {main}
+Thrown in '/var/www/mvc.test/Core/Controller.php' on line 30
+[19-Jun-2022 20:55:33 Asia/Krasnoyarsk] Uncaught exception: 'ParseError' with message 'syntax error, unexpected token "}", expecting "," or ";"'
+Stack trace: #0 /var/www/mvc.test/vendor/composer/ClassLoader.php(301): Composer\Autoload\includeFile()
+#1 /var/www/mvc.test/App/Controllers/Home.php(12): Composer\Autoload\ClassLoader->loadClass()
+#2 /var/www/mvc.test/vendor/composer/ClassLoader.php(412): include('...')
+#3 /var/www/mvc.test/vendor/composer/ClassLoader.php(301): Composer\Autoload\includeFile()
+#4 [internal function]: Composer\Autoload\ClassLoader->loadClass()
+#5 /var/www/mvc.test/Core/Router.php(90): class_exists()
+#6 /var/www/mvc.test/public/index.php(29): Core\Router->dispatch()
+#7 {main}
+Thrown in '/var/www/mvc.test/Core/Controller.php' on line 30
+[19-Jun-2022 22:10:52 Asia/Krasnoyarsk] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /var/www/mvc.test/public/index.php(29): Core\Router->dispatch()
+#1 {main}
+Thrown in '/var/www/mvc.test/Core/Router.php' on line 106
+[19-Jun-2022 22:10:58 Asia/Krasnoyarsk] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /var/www/mvc.test/public/index.php(29): Core\Router->dispatch()
+#1 {main}
+Thrown in '/var/www/mvc.test/Core/Router.php' on line 106
+[19-Jun-2022 22:39:00 Asia/Krasnoyarsk] Uncaught exception: 'Error' with message 'Object of class App\Controllers\Home could not be converted to string'
+Stack trace: #0 /var/www/mvc.test/Core/Router.php(97): Core\Controller->__call()
+#1 /var/www/mvc.test/public/index.php(29): Core\Router->dispatch()
+#2 {main}
+Thrown in '/var/www/mvc.test/Core/Controller.php' on line 49
+[19-Jun-2022 22:39:08 Asia/Krasnoyarsk] Uncaught exception: 'Error' with message 'Object of class App\Controllers\Posts could not be converted to string'
+Stack trace: #0 /var/www/mvc.test/Core/Router.php(97): Core\Controller->__call()
+#1 /var/www/mvc.test/public/index.php(29): Core\Router->dispatch()
+#2 {main}
+Thrown in '/var/www/mvc.test/Core/Controller.php' on line 49
+[19-Jun-2022 22:39:11 Asia/Krasnoyarsk] Uncaught exception: 'Error' with message 'Object of class App\Controllers\Posts could not be converted to string'
+Stack trace: #0 /var/www/mvc.test/Core/Router.php(97): Core\Controller->__call()
+#1 /var/www/mvc.test/public/index.php(29): Core\Router->dispatch()
+#2 {main}
+Thrown in '/var/www/mvc.test/Core/Controller.php' on line 49
+[19-Jun-2022 22:39:12 Asia/Krasnoyarsk] Uncaught exception: 'Error' with message 'Object of class App\Controllers\Home could not be converted to string'
+Stack trace: #0 /var/www/mvc.test/Core/Router.php(97): Core\Controller->__call()
+#1 /var/www/mvc.test/public/index.php(29): Core\Router->dispatch()
+#2 {main}
+Thrown in '/var/www/mvc.test/Core/Controller.php' on line 49
+[19-Jun-2022 22:39:12 Asia/Krasnoyarsk] Uncaught exception: 'Error' with message 'Object of class App\Controllers\Posts could not be converted to string'
+Stack trace: #0 /var/www/mvc.test/Core/Router.php(97): Core\Controller->__call()
+#1 /var/www/mvc.test/public/index.php(29): Core\Router->dispatch()
+#2 {main}
+Thrown in '/var/www/mvc.test/Core/Controller.php' on line 49
+[19-Jun-2022 22:39:13 Asia/Krasnoyarsk] Uncaught exception: 'Error' with message 'Object of class App\Controllers\Posts could not be converted to string'
+Stack trace: #0 /var/www/mvc.test/Core/Router.php(97): Core\Controller->__call()
+#1 /var/www/mvc.test/public/index.php(29): Core\Router->dispatch()
+#2 {main}
+Thrown in '/var/www/mvc.test/Core/Controller.php' on line 49
+[19-Jun-2022 22:39:28 Asia/Krasnoyarsk] Uncaught exception: 'Error' with message 'Object of class App\Controllers\Posts could not be converted to string'
+Stack trace: #0 /var/www/mvc.test/Core/Router.php(97): Core\Controller->__call()
+#1 /var/www/mvc.test/public/index.php(29): Core\Router->dispatch()
+#2 {main}
+Thrown in '/var/www/mvc.test/Core/Controller.php' on line 49
+[19-Jun-2022 22:39:30 Asia/Krasnoyarsk] Uncaught exception: 'Error' with message 'Object of class App\Controllers\Posts could not be converted to string'
+Stack trace: #0 /var/www/mvc.test/Core/Router.php(97): Core\Controller->__call()
+#1 /var/www/mvc.test/public/index.php(29): Core\Router->dispatch()
+#2 {main}
+Thrown in '/var/www/mvc.test/Core/Controller.php' on line 49
+[19-Jun-2022 22:39:30 Asia/Krasnoyarsk] Uncaught exception: 'Error' with message 'Object of class App\Controllers\Posts could not be converted to string'
+Stack trace: #0 /var/www/mvc.test/Core/Router.php(97): Core\Controller->__call()
+#1 /var/www/mvc.test/public/index.php(29): Core\Router->dispatch()
+#2 {main}
+Thrown in '/var/www/mvc.test/Core/Controller.php' on line 49
+[19-Jun-2022 22:39:30 Asia/Krasnoyarsk] Uncaught exception: 'Error' with message 'Object of class App\Controllers\Posts could not be converted to string'
+Stack trace: #0 /var/www/mvc.test/Core/Router.php(97): Core\Controller->__call()
+#1 /var/www/mvc.test/public/index.php(29): Core\Router->dispatch()
+#2 {main}
+Thrown in '/var/www/mvc.test/Core/Controller.php' on line 49
+[19-Jun-2022 23:42:52 Asia/Krasnoyarsk] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Admin\User not found'
+Stack trace: #0 /var/www/mvc.test/public/index.php(29): Core\Router->dispatch()
+#1 {main}
+Thrown in '/var/www/mvc.test/Core/Router.php' on line 92
+[19-Jun-2022 23:43:42 Asia/Krasnoyarsk] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Admin\User not found'
+Stack trace: #0 /var/www/mvc.test/public/index.php(29): Core\Router->dispatch()
+#1 {main}
+Thrown in '/var/www/mvc.test/Core/Router.php' on line 92
+[19-Jun-2022 23:43:48 Asia/Krasnoyarsk] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Admin\User not found'
+Stack trace: #0 /var/www/mvc.test/public/index.php(29): Core\Router->dispatch()
+#1 {main}
+Thrown in '/var/www/mvc.test/Core/Router.php' on line 92
+[19-Jun-2022 23:43:52 Asia/Krasnoyarsk] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Admin not found'
+Stack trace: #0 /var/www/mvc.test/public/index.php(29): Core\Router->dispatch()
+#1 {main}
+Thrown in '/var/www/mvc.test/Core/Router.php' on line 92
+[19-Jun-2022 23:44:00 Asia/Krasnoyarsk] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Admin\User not found'
+Stack trace: #0 /var/www/mvc.test/public/index.php(29): Core\Router->dispatch()
+#1 {main}
+Thrown in '/var/www/mvc.test/Core/Router.php' on line 92
+[19-Jun-2022 23:44:03 Asia/Krasnoyarsk] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Admin\User not found'
+Stack trace: #0 /var/www/mvc.test/public/index.php(29): Core\Router->dispatch()
+#1 {main}
+Thrown in '/var/www/mvc.test/Core/Router.php' on line 92
+[19-Jun-2022 23:44:08 Asia/Krasnoyarsk] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Admin not found'
+Stack trace: #0 /var/www/mvc.test/public/index.php(29): Core\Router->dispatch()
+#1 {main}
+Thrown in '/var/www/mvc.test/Core/Router.php' on line 92
+[19-Jun-2022 23:44:29 Asia/Krasnoyarsk] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Admind not found'
+Stack trace: #0 /var/www/mvc.test/public/index.php(29): Core\Router->dispatch()
+#1 {main}
+Thrown in '/var/www/mvc.test/Core/Router.php' on line 92
+[19-Jun-2022 23:44:33 Asia/Krasnoyarsk] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Admin not found'
+Stack trace: #0 /var/www/mvc.test/public/index.php(29): Core\Router->dispatch()
+#1 {main}
+Thrown in '/var/www/mvc.test/Core/Router.php' on line 92
+[19-Jun-2022 23:44:36 Asia/Krasnoyarsk] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /var/www/mvc.test/public/index.php(29): Core\Router->dispatch()
+#1 {main}
+Thrown in '/var/www/mvc.test/Core/Router.php' on line 95
+[19-Jun-2022 23:44:43 Asia/Krasnoyarsk] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /var/www/mvc.test/public/index.php(29): Core\Router->dispatch()
+#1 {main}
+Thrown in '/var/www/mvc.test/Core/Router.php' on line 95
+[19-Jun-2022 23:44:45 Asia/Krasnoyarsk] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /var/www/mvc.test/public/index.php(29): Core\Router->dispatch()
+#1 {main}
+Thrown in '/var/www/mvc.test/Core/Router.php' on line 95
+[19-Jun-2022 23:44:47 Asia/Krasnoyarsk] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Admin\User not found'
+Stack trace: #0 /var/www/mvc.test/public/index.php(29): Core\Router->dispatch()
+#1 {main}
+Thrown in '/var/www/mvc.test/Core/Router.php' on line 92
+[19-Jun-2022 23:47:11 Asia/Krasnoyarsk] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Admin\User not found'
+Stack trace: #0 /var/www/mvc.test/public/index.php(29): Core\Router->dispatch()
+#1 {main}
+Thrown in '/var/www/mvc.test/Core/Router.php' on line 92
+[19-Jun-2022 23:47:19 Asia/Krasnoyarsk] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Admin\Post not found'
+Stack trace: #0 /var/www/mvc.test/public/index.php(29): Core\Router->dispatch()
+#1 {main}
+Thrown in '/var/www/mvc.test/Core/Router.php' on line 92
+[19-Jun-2022 23:47:24 Asia/Krasnoyarsk] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Admin\Posts not found'
+Stack trace: #0 /var/www/mvc.test/public/index.php(29): Core\Router->dispatch()
+#1 {main}
+Thrown in '/var/www/mvc.test/Core/Router.php' on line 92
